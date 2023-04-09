@@ -1,5 +1,23 @@
 ---
 title: "raphaelfeser.github.io"
+image: me.jpg
+about:
+  template: solana
+  image-shape: round
+  image-width: 15em
+  links:
+    - text: ""
+      icon: envelope
+      href: mailto:noreply@email.zz
+    - text: ""
+      icon: github
+      href: https://github.com/
+    - text: ""
+      icon: youtube
+      href: https://youtube.com/
+    - text: ""
+      icon: file-text
+      href: resume.pdf
 ---
 
 This is a Quarto website.
