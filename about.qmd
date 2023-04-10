@@ -1,20 +1,10 @@
 ---
-title: "Raphaël Paul Feser"
+title: ""
 image: moi.png
 about:
   template: solana
   image-shape: round
-  image-width: 15em
-  links:
-    - text: ""
-      icon: linkedin
-      href: https://www.linkedin.com/in/raphael-feser/
-    - text: ""
-      icon: envelope
-      href: mailto:raphael.feser@etu.unige.ch
-    - text: "M.Sc. Thesis"
-      icon: file-text
-      href: docs/msc_thesis_rf.pdf
+  image-width: 10em
 ---
 
 ## Education
