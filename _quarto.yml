@@ -8,10 +8,12 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: about.qmd
+        text: About
 
 format:
   html:
-    theme: cosmo
+    theme: zephyr
     css: styles.css
     toc: true
 

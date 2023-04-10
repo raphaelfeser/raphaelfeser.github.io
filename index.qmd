@@ -2,74 +2,23 @@
 title: "Raphaël Paul Feser"
 image: moi.png
 about:
-  template: solana
+  template: trestles
   image-shape: round
-  image-width: 15em
   links:
     - text: ""
+      icon: linkedin
+      href: https://www.linkedin.com/in/raphael-feser/
+    - text: ""
       icon: envelope
-      href: mailto:noreply@email.zz
-    - text: ""
-      icon: github
-      href: https://github.com/
-    - text: ""
-      icon: youtube
-      href: https://youtube.com/
+      href: mailto:raphael.feser@etu.unige.ch
     - text: "M.Sc. Thesis"
       icon: file-text
       href: docs/msc_thesis_rf.pdf
 ---
 
-Je suis un étudiant qui bla bla bla et aussi bla bla\
-crewvgw rtgvgb vz eb
+### Scientific Interests
 
-------------------------------------------------------------------------
+<p align="justify">Looking for new stimulating opportunities in life sciences.
+My education has provided me with solid foundations in experimental lab techniques but I have also been able to develop computational skills through my various experiences. I envision to use and develop my skills in exciting interdisciplinary projects contributing to a better understanding of human body biochemistry and supporting the drug discovery process, leading to safer and more effective treatments for patients.</p>
 
-## Education
-
--   Pharm.D *(Expected Sept 2023)*
--   M.Sc Pharmacy *(Expected July 2023)*
--   B.Sc Pharmaceutical Sciences *(July 2021)*
--   Swiss Matura - Biology & Chemistry *(July 2018*)
-
-------------------------------------------------------------------------
-
-## Professional Experiences
-
-![](docs/scientific_pic.png){height=70% width=70%}
-
-*Jan 2023 - Currently* \| **Trainee Pharmacist - Pharmacie de L'Ile**<br/>Stage en Pharmacie qui fait parti intégrante de mon cursus Pharm.D ou je suis au front du pb des shortages<br/>
-
-| *Aug 2022 - Dec 2022* \| **Master's Thesis - University College London**<br/>Investigated the binding and the effect of a drug in the LHCGR using homology modeling and MD simulation<br/>
-
-*Aug 2022 - Dec 2022* \| **Student Research Assistant - UNIGE**<br/>condicting various project in applied statisctis and providing support for data analysis and data wrangling of external collaborators<br/>
-
-| *Aug 2022 - Dec 2022* \| **Research Internship - MIA**<br/>I studied the efficacy of sentinel lymph node biopsy in melanoma patients using the largest melanoma dataset in the world, using various statistical modelling approaches. <br/>
-
-| *Jan 2021 - Apr 2021*\| **Open Synthesis Network - DNDi** <br/>I prepared fragrance blends from laboratory compounds and in-house technologies for home care, body care and fine perfumery<br/>
-
-| *Aug 2022 - Dec 2022*\| **Laboratory Assistant - Firmenich** <br/>I prepared fragrance blends from laboratory compounds and in-house technologies for home care, body care and fine perfumery<br/>
-
-------------------------------------------------------------------------
-
-## Advocacy and Volunteerism
-
-![](docs/volunteer_speaker.jpg){height=70% width=70%}
-
-*Aug 2022* \| **Vice-Chairperson of the 4th IPSF EuRO Symposim**<br/>I was appointed Vice-Chairperson in a team of 20 motivated student to organize a educative event gathering students from all over Europe.<br/>
-
-*Mai 2022* \| **Guest Speaker at 132. BVT - Leipzig** <br/>I participated to the national weekend of BPhD (German Pharmacy Student's Association) speaking about student involvement opportunities at the european and wordwide level<br/>
-
-*Mai 2022* \| **Delegate at the Geneva Health Forum 2022** <br/>I was at the Fight the Fake Alliance's Booth speaking about the challenges and issues associated with substandard and falsified medicines.<br/>
-
-*Jan 2022* \| **Head of Public Relations - asep** <br/>I was elected as an Executive at asep (Swiss Pharmacy Student's Association), responsible for maintaning a good image and developping the association's relations to external stakeholders <br/>
-
-*Oct 2021* \| **Delegate at the 43rd EPSA Annual Congress - Lyon** <br/>I prepared fragrance blends from laboratory compounds and in-house technologies for home care, body care and fine perfumery<br/>
-
-*Oct 2021 * \| **Guest Speaker at PsyKo 2021 - Leysins** <br/>held a workshop on the pharmacy and pharmaceutical sciences aspect on troubles such as depression and pharmacology. to promote interprofessionality<br/>
-
-*Aug 2021 * \| **Delegate at the 66th IPSF World COngress - Seoul** <br/>I prepared fragrance blends from laboratory compounds and in-house technologies for home care, body care and fine perfumery<br/>
-
-*Feb 2021 *\| **Co-Host of the Digital Health Panel Discussion** <br/>involving speakers start up, professor, and students ... question response etc smooth organization<br/>
-
-*Jan 2021 * \| **Contact Person to IPSF** <br/>Elected to represent asep at IPSF and ... activities<br/>
+---
