@@ -1,35 +1,36 @@
 ---
 title: ""
-image: moi.png
-about:
-  template: solana
-  image-shape: round
-  image-width: 10em
 ---
 
-## Education
+<img src="moi.png" style="float:right;border-radius:50%;width:160px;padding:6px"/>
+
+# Education
 
 -   Pharm.D *(Expected Sept 2023)*
 -   M.Sc Pharmacy *(Expected July 2023)*
 -   B.Sc Pharmaceutical Sciences *(July 2021)*
 
-------------------------------------------------------------------------
-
-<h2 align="center">
-
-Professional Experiences
-
-</h2>
-
-<p align="center"> <img src="docs/scientific_pic.png" width="70%" height="70%"/></p>
+## Professional Experiences
 
 <p align="center">
-*Jan 2023 - Currently* \| **Trainee Pharmacist - Pharmacie de L'Ile**</p>
 
-<p align="justify"> This training is an integral and mandatory part of my doctorate of pharmacy where I ensure that patients receive optimal treatments (even in the current drug shortage environment) and proper advices. I also assist pharmacists in the final review of prescriptions, assessing their adequacy and safety. I am committed to working collaboratively with patients by involving them in their own care.</p>
+<img src="docs/scientific_pic.png" width="40%" height="40%"/>
 
-<p align="center">
-*Aug 2022 - Dec 2022* \| **Master's Thesis - UCL**</p> <p align="center">**Prof Shozeb Haider & Prof Francesco Luigi Gervasio**</p> 
+</p>
+
+---
+
+*Jan 2023 - Currently* <h5> **Trainee Pharmacist - Pharmacie de L'Ile** </h5>
+
+<p align="justify">
+
+This training is an integral and mandatory part of my doctorate of pharmacy where I ensure that patients receive optimal treatments (even in the current drug shortage environment) and proper advices. I also assist pharmacists in the final review of prescriptions, assessing their adequacy and safety. I am committed to working collaboratively with patients by involving them in their own care.
+
+</p>
+
+
+
+*Aug 2022 - Dec 2022* <h5> **Master's Thesis** - **University College London**</h5> **Prof. Shozeb Haider & Prof. Francesco L. Gervasio**
 
 <p align="justify">
 
@@ -43,18 +44,19 @@ Additionally, I was involved in the development of pancreatic cancer vaccines us
 
 </p>
 
-<p align="center">
-*Aug 2022 - Dec 2022* \| **Student Research Assistant - UNIGE**</p> 
-<p align="center">**Prof Stephane Guerrier**</p>
+
+
+*Aug 2022 - Currently* <h5> **Student Research Assistant** - **University of Geneva** </h5> **Prof. Stephane Guerrier**
 
 <p align="justify">
 
-I conducted Monte Carlo simulation studies to compare methods and contributed to statistical modelling projects that may lead to peer-reviewed publications. This experience makes me think about how existing statistical methodologies can be adapted to address issues in molecular biology and drug discovery.
+I conducted Monte Carlo simulation studies to compare methods and contributed to statistical modelling projects that may lead to peer-reviewed publications. This experience motivates me to explore how existing statistical methodologies can be adapted to address problems in molecular biology and drug discovery.
 
 </p>
 
-<p align="center">
-*Aug 2022 - Dec 2022* \| **Research Internship - MIA**</p> <p align="center">**Prof Serigne Lo**</p>
+
+
+*July 2022 - Aug 2022* <h5> **Research Internship** - **Melanoma Institute Australia** </h5> **Prof Serigne Lo**
 
 <p align="justify">
 
@@ -62,8 +64,7 @@ Using the world's largest melanoma database, I built a Cox Proportional Hazards 
 
 </p>
 
-<p align="center">
-*Jan 2021 - Apr 2021*\| **Open Synthesis Network**</p> <p align="center">**DNDi & University of Geneva**</p>
+*Jan 2021 - Apr 2021* <h5> **Open Synthesis Network** - **DNDi & University of Geneva**</h5>
 
 <p align="justify">
 
@@ -71,8 +72,7 @@ Open Synthesis Network is a project in which students are involved in the early 
 
 </p>
 
-<p align="center">
-*Aug 2022 - Dec 2022*\| **Laboratory Assistant**</p> <p align="center">**Firmenich SA**</p>
+*July 2018 - Aug 2018* <h5> **Laboratory Assistant** - **Firmenich SA** </h5>
 
 <p align="justify">
 
@@ -80,17 +80,17 @@ I prepared fragrance blends from laboratory compounds and in-house technologies 
 
 </p>
 
-------------------------------------------------------------------------
+---------------------------------------------------------------------
+
+<br>
 
 ## Advocacy and Volunteerism
-
-<p align="center">
 
 <img src="docs/volunteer_speaker.jpg" width="70%" height="70%"/>
 
 </p>
 
-*Aug 2022* \| **Vice-Chairperson of the 4th IPSF EuRO Symposim**
+*Aug 2022* \| **Vice-Chairperson of the 4th IPSF EuRO Symposium**
 
 <p align="justify">
 
@@ -102,7 +102,7 @@ Appointed Vice-Chairperson in a team of 20 motivated student to organize a educa
 
 <p align="justify">
 
-I participated in the national weekend of the BPhD (German Association of Pharmacy Students), where I spoke about the possibilities of student engagement at European and global level.br/\>
+I participated in the national weekend of the BPhD (German Association of Pharmacy Students), where I spoke about the possibilities of student engagement at European and global level.
 
 *Mai 2022* \| **Delegate at the Geneva Health Forum 2022**
 
