@@ -3,13 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "Raphael Paul Feser"
+  title: "Raphael Feser"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: About
+        text: Extended CV
 
 format:
   html:

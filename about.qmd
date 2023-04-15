@@ -2,21 +2,19 @@
 title: ""
 ---
 
-<img src="moi.png" style="float:right;border-radius:50%;width:160px;padding:6px"/>
+<img src="docs/me2.jpg" style="float:right;border-radius:50%;width:160px;padding:6px"/>
 
-# Education
+# Extended Curriculum Vitae
+
+<br><br>
+
+## Education
 
 -   Pharm.D *(Expected Sept 2023)*
 -   M.Sc Pharmacy *(Expected July 2023)*
 -   B.Sc Pharmaceutical Sciences *(July 2021)*
 
 ## Professional Experiences
-
-<p align="center">
-
-<img src="docs/scientific_pic.png" width="40%" height="40%"/>
-
-</p>
 
 ---
 
@@ -50,7 +48,7 @@ Additionally, I was involved in the development of pancreatic cancer vaccines us
 
 <p align="justify">
 
-I conducted Monte Carlo simulation studies to compare methods and contributed to statistical modelling projects that may lead to peer-reviewed publications. This experience motivates me to explore how existing statistical methodologies can be adapted to address problems in molecular biology and drug discovery.
+I contributed to statistical modelling projects that may lead to peer-reviewed publications and I conducted Monte Carlo simulation studies to compare methodologies. These methods can be adapted to address problems in molecular biology and drug discovery.
 
 </p>
 
@@ -60,7 +58,7 @@ I conducted Monte Carlo simulation studies to compare methods and contributed to
 
 <p align="justify">
 
-Using the world's largest melanoma database, I built a Cox Proportional Hazards Regression Model to evaluate the effectiveness of sentinel lymph node biopsy in melanoma patients. I used a range of statistical approaches, such as propensity score stratification, hypothesis testing, and descriptive statistics, to interpret the model's results and generated tables and graphs to present the findings.
+Using the world's largest melanoma database, I used Cox Proportional Hazards Regression Model to evaluate the effectiveness of sentinel lymph node biopsy in melanoma patients. I used a range of statistical approaches, such as propensity score stratification, hypothesis testing, and descriptive statistics, to interpret the model's results and generated tables and graphs to present the findings.
 
 </p>
 
