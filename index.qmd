@@ -28,7 +28,7 @@ My training has provided me with a solid foundation in experimental laboratory t
 
 ------------------------------------------------------------------------
 
-## Summary
+## Experience
 
 <details>
 
@@ -54,34 +54,34 @@ My training has provided me with a solid foundation in experimental laboratory t
 
 <p>
 
--   **Trainee Pharmacist** - Pharmacie de L'Ile [\[more\]](./about.html#trainee-pharmacist-pharmacie-de-l’ile){style="caret-color: white; font-size: 11pt;"}
+-   **Trainee Pharmacist** - Pharmacie de L'Ile [\[more\]](./about.html#trainee-pharmacist-pharmacie-de-l’ile){target="_blank" style="caret-color: white; font-size: 11pt;"}
 
--   **Laboratory Assistant** - Firmenich SA [\[more\]](./about.html#laboratory-assistant-firmenich-sa){style="caret-color: white; font-size: 11pt;"} <br><br>
-
-</details>
-
-<details>
-
-<summary><b>Research activities</b></summary>
-
-<p>
-
--   **Master's Thesis in Molecular Modelling** [\[more\]](./about.html#master’s-thesis-university-college-london){style="caret-color: white; font-size: 11pt;"} <br> University College London <br> Prof. Shozeb Haider & Prof. Francesco L. Gervasio
-
--   **Research Assistant in Statistics** [\[more\]](./about.html#student-research-assistant-university-of-geneva){style="caret-color: white; font-size: 11pt;"} <br> University of Geneva <br> Prof. Stéphane Guerrier
-
--   **Research Internship in Biostatistics** [\[more\]](./about.html#research-internship-melanoma-institute-australia){style="caret-color: white; font-size: 11pt;"} <br> Melanoma Institute Australia <br> Prof. Serigne Lo
-
--   **Open Synthesis Network** [\[more\]](./about.html#open-synthesis-network-dndi-university-of-geneva){style="caret-color: white; font-size: 11pt;"} <br> DNDi & University of Geneva <br> Dr Sébastien Tardy & Prof. Leonardo Scapozza <br><br> 
+-   **Laboratory Assistant** - Firmenich SA [\[more\]](./about.html#laboratory-assistant-firmenich-sa){target="_blank" style="caret-color: white; font-size: 11pt;"} <br><br>
 
 </details>
 
 <details>
 
-<summary><b>Outreach</b></summary>
+<summary><b>Research experience</b></summary>
 
 <p>
 
-Outside my studies, I have been involved with several non-profit organisations engaged in pharmacy student's advocacy and global health, which has allowed me to gain valuable experiences and develop a wide range of soft skills. [\[see more\]](./about.html#advocacy-and-volunteerism){style="caret-color: white; font-size: 11pt;"}
+-   **Master's Thesis in Molecular Modelling** [\[more\]](./about.html#master’s-thesis-university-college-london){target="_blank"  style="caret-color: white; font-size: 11pt;"} <br> University College London <br> Prof. Shozeb Haider & Prof. Francesco L. Gervasio
+
+-   **Research Assistant in Statistics** [\[more\]](./about.html#student-research-assistant-university-of-geneva){target="_blank"  style="caret-color: white; font-size: 11pt;"} <br> University of Geneva <br> Prof. Stéphane Guerrier
+
+-   **Research Internship in Biostatistics** [\[more\]](./about.html#research-internship-melanoma-institute-australia){target="_blank"  style="caret-color: white; font-size: 11pt;"} <br> Melanoma Institute Australia <br> Prof. Serigne Lo
+
+-   **Open Synthesis Network** [\[more\]](./about.html#open-synthesis-network-dndi-university-of-geneva){target="_blank"  style="caret-color: white; font-size: 11pt;"} <br> DNDi & University of Geneva <br> Dr Sébastien Tardy & Prof. Leonardo Scapozza <br><br> 
+
+</details>
+
+<details>
+
+<summary><b>Outreach activities</b></summary>
+
+<p>
+
+Outside my studies, I have been involved with several non-profit organisations engaged in pharmacy student's advocacy and global health, which has allowed me to gain valuable experiences and develop a wide range of soft skills. [\[see more\]](./about.html#advocacy-and-volunteerism){target="_blank"  style="caret-color: white; font-size: 11pt;"}
 
 </details>

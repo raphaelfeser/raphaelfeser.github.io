@@ -77,14 +77,15 @@ Additionally, I was involved in the development of pancreatic cancer vaccines us
 
 <p align="justify">
 
-I contributed to statistical modelling projects that may lead to peer-reviewed publications and I conducted Monte Carlo simulation studies to compare methodologies. These methods can be adapted to address problems in molecular biology and drug discovery.
+I have contributed to statistical modelling projects that may lead to peer-reviewed publications and have conducted Monte Carlo simulation studies to compare methodologies. A number of the methods I have studied can be adapted to problems in molecular biology and drug discovery.
 
-![The figure depicts simulated probabilities of declaring two  drugs as bioequivalent under different conditions, using the two one-sided t test (TOST) procedure and an adjusted version of the TOST procedure. The TOST procedure recommended by the FDA compares the difference between the means of two pharmacokinetic measures to a predefined limit of log(1.25).](docs/power.png){width="50%" height="50%"}
+::: {layout-ncol=2}
 
+![The figure depicts simulated probabilities of declaring two  drugs as bioequivalent under different conditions, using the two one-sided t-test (TOST) procedure in red and an adjusted version of the TOST procedure in blue.](docs/power.png)
 
-![Monte Carlo simulation for evaluation of the coverage of different bootstrap confidence interval methods.](covid_bootstrap.png){width="50%" height="50%"}
+![A Monte Carlo simulation was used to evaluate the performance of various bootstrap techniques in estimating confidence intervals for parameter estimates of a linear regression. The results are displayed in the graph, which presents the coverage rates for each method.](covid_bootstrap.png)
+:::
 
-Monte Carlo simulation for evaluation of the coverage of different bootstrap confidence interval methods.
 
 </p>
 
@@ -116,7 +117,7 @@ Using the world's largest melanoma database, I used Cox Proportional Hazards Reg
 
 <h5>**Open Synthesis Network** - **DNDi & University of Geneva**</h5>
 
-**Dr Sébastien Tardy & Prof. Leonardo Scapozza** <br> *Jan 2021 - Apr 2021*
+**Dr Sébastien Tardy & Prof. Leonardo Scapozza** <br> *Feb 2021 - Apr 2021*
 
 ---
 
@@ -126,7 +127,7 @@ Open Synthesis Network is a project in which students are involved in the initia
 
 </p>
 
-![The graph shows the melanoma-specific survival rates of patients who underwent SLNB (blue) versus those who did not (red).](docs/osn.jpg){width="80%" height="80%"}
+![The graph shows the melanoma-specific survival rates of patients who underwent SLNB (blue) versus those who did not (red).](docs/osn.jpg){width="90%" height="90%"}
 
 ---
 
