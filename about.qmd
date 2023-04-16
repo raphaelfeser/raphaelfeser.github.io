@@ -4,21 +4,30 @@ title: ""
 
 <img src="docs/me2.jpg" style="float:right;border-radius:50%;width:160px;padding:6px"/>
 
-# Extended Curriculum Vitae
+# [Extended Curriculum Vitae]{.underline}
 
 <br><br>
 
-## Education
+# Education
 
--   Pharm.D *(Expected Sept 2023)*
--   M.Sc Pharmacy *(Expected July 2023)*
--   B.Sc Pharmaceutical Sciences *(July 2021)*
+------------------------------------------------------------------------
 
-## Professional Experiences
+-   **Federal Diploma in Pharmacy** (Pharm.D equivalent) \| *Expected Sept 2023*
+-   **M.Sc in Pharmacy** - University of Geneva \| *Expected July 2023*
+-   **B.Sc in Pharmaceutical Sciences** - University of Geneva \| July 2021
+-   **Swiss Matura (High School Diploma)** - Gymnase de Nyon \| July 2018
+
+
+<br>
+
+# Professional Experiences
+
+
+
+
+<h5>**Trainee Pharmacist - Pharmacie de L'Ile**</h5> *Jan 2023 - Currently*
 
 ---
-
-*Jan 2023 - Currently* <h5> **Trainee Pharmacist - Pharmacie de L'Ile** </h5>
 
 <p align="justify">
 
@@ -26,15 +35,25 @@ This training is an integral and mandatory part of my doctorate of pharmacy wher
 
 </p>
 
+---
+
+<br>
 
 
-*Aug 2022 - Dec 2022* <h5> **Master's Thesis** - **University College London**</h5> **Prof. Shozeb Haider & Prof. Francesco L. Gervasio**
 
+<h5>**Master's Thesis** - **University College London**</h5>
+
+**Prof. Shozeb Haider & Prof. Francesco L. Gervasio** <br> *Aug 2022 - Dec 2022*
+
+---
+  
 <p align="justify">
 
 I studied the activation of human and murine LHCGR by an allosteric small molecule agonist using homology modelling and performing molecular dynamics simulation studies. I was able to highlight interesting drug-mediated activation mechanisms that may be useful for designing more potent drugs. Furthermore, the results suggest differences in human and mouse binding sites, implying that the use of mouse animal models is not optimal for predicting the structure-related effects of this drug. ([See here](docs/msc_thesis_rf.pdf))
 
 </p>
+
+![ORG43553 is a small molecule capable of activating LHCGR in vitro. This property is particularly interesting since the endogenous LHCGR receptor agonists are peptides. This ligand holds promise for the development of orally active drugs to replace the limited use of injectable CG and LH in the treatment of reproductive disorders and assisted reproductive technologies.](docs/gpcr_context.jpg){width="40%" height="40%"}
 
 <p align="justify">
 
@@ -42,35 +61,82 @@ Additionally, I was involved in the development of pancreatic cancer vaccines us
 
 </p>
 
+![The image displays two illustrations of the same model of a neoantigen-CMH complex. The mutant amino-acid, represented by the spheres in both illustrations, exhibits a high solvent-accessible surface area (SASA). It is plausible that such solvent exposure may facilitate the recognition of the neoantigen as "non-self" by the immune cell encountering this complex, thereby eliciting immunogenicity.](docs/MEPfig_generate.png){width="60%" height="60%"}
+
+---
+
+<br>
 
 
-*Aug 2022 - Currently* <h5> **Student Research Assistant** - **University of Geneva** </h5> **Prof. Stephane Guerrier**
+
+<h5>**Student Research Assistant** - **University of Geneva**</h5>
+
+**Prof. Stephane Guerrier** <br> *Aug 2022 - Currently*
+
+---
 
 <p align="justify">
 
 I contributed to statistical modelling projects that may lead to peer-reviewed publications and I conducted Monte Carlo simulation studies to compare methodologies. These methods can be adapted to address problems in molecular biology and drug discovery.
 
+![The figure depicts simulated probabilities of declaring two  drugs as bioequivalent under different conditions, using the two one-sided t test (TOST) procedure and an adjusted version of the TOST procedure. The TOST procedure recommended by the FDA compares the difference between the means of two pharmacokinetic measures to a predefined limit of log(1.25).](docs/power.png){width="50%" height="50%"}
+
+
+![Monte Carlo simulation for evaluation of the coverage of different bootstrap confidence interval methods.](covid_bootstrap.png){width="50%" height="50%"}
+
+Monte Carlo simulation for evaluation of the coverage of different bootstrap confidence interval methods.
+
 </p>
 
+---
+
+<br>
 
 
-*July 2022 - Aug 2022* <h5> **Research Internship** - **Melanoma Institute Australia** </h5> **Prof Serigne Lo**
+
+<h5>**Research Internship** - **Melanoma Institute Australia**</h5>
+
+**Prof. Serigne Lo** <br> *July 2022 - Aug 2022*
+
+---
 
 <p align="justify">
 
 Using the world's largest melanoma database, I used Cox Proportional Hazards Regression Model to evaluate the effectiveness of sentinel lymph node biopsy in melanoma patients. I used a range of statistical approaches, such as propensity score stratification, hypothesis testing, and descriptive statistics, to interpret the model's results and generated tables and graphs to present the findings.
 
+![Although sentinel lymph node biopsy (SLNB) can provide useful information about cancer progression, it also carries surgical risks. In my analysis, I created and interpreted several tables and graphs to assess the effectiveness of SLNB and determine appropriate patient selection criteria. The graph shows the melanoma-specific survival rates of patients who underwent SLNB (blue) versus those who did not (red).](docs/MSS_by_SLNB2.jpeg){width="40%" height="40%"}
+
 </p>
 
-*Jan 2021 - Apr 2021* <h5> **Open Synthesis Network** - **DNDi & University of Geneva**</h5>
+---
+
+<br>
+
+
+
+<h5>**Open Synthesis Network** - **DNDi & University of Geneva**</h5>
+
+**Dr Sébastien Tardy & Prof. Leonardo Scapozza** <br> *Jan 2021 - Apr 2021*
+
+---
 
 <p align="justify">
 
-Open Synthesis Network is a project in which students are involved in the early stages of neglected disease research. All students are tasked with synthesizing an analog of a previously identified hit with activity on Chagas disease. Using pharmaceutical chemistry techniques and the results of H-NMR, HPLC-MS, and FTIR analysis, I successfully ensured the synthesis and purification of my assigned analogue under the supervision of the lab team.
+Open Synthesis Network is a project in which students are involved in the initial stages of research into neglected diseases. All students are tasked with synthesising a molecule that has never been synthesised before. These molecules are analogues of a previously identified molecule active against Chagas disease. The general objective of the project is to test the activity, toxicity and pharmacokinetic parameters of all these analogues in order to find a candidate and propose a SAR for the target. I successfully synthesised and purified my assigned analogue, using pharmaceutical chemistry techniques and H-NMR, HPLC-MS and FTIR results.
 
 </p>
 
-*July 2018 - Aug 2018* <h5> **Laboratory Assistant** - **Firmenich SA** </h5>
+![The graph shows the melanoma-specific survival rates of patients who underwent SLNB (blue) versus those who did not (red).](docs/osn.jpg){width="80%" height="80%"}
+
+---
+
+<br>
+
+*July 2018 - Aug 2018*
+
+<h5>**Laboratory Assistant** - **Firmenich SA**</h5>
+
+---
 
 <p align="justify">
 
@@ -78,9 +144,9 @@ I prepared fragrance blends from laboratory compounds and in-house technologies 
 
 </p>
 
----------------------------------------------------------------------
+------------------------------------------------------------------------
 
-<br>
+<br><br>
 
 ## Advocacy and Volunteerism
 
