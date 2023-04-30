@@ -20,7 +20,7 @@ title: ""
 
 <br>
 
-# Professional Experiences
+# Experience
 
 
 
@@ -149,7 +149,7 @@ I prepared fragrance blends from laboratory compounds and in-house technologies 
 
 <br><br>
 
-## Advocacy and Volunteerism
+## Outreach activities
 
 <img src="docs/volunteer_speaker.jpg" width="70%" height="70%"/>
 
