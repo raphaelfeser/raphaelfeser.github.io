@@ -20,6 +20,8 @@ about:
 
 <meta name="description" content="Raphael Feser. Online and extended version of my CV. My training has provided me with a solid foundation in experimental laboratory techniques, but I have also been able to develop computational skills through my various experiences. I intend to use and develop my skills in exciting interdisciplinary projects contributing to a better understanding of the biochemistry of the human body, paving the way for the discovery of safer and more effective treatments. Raphael Paul Feser">
 
+<meta name="google-site-verification" content="KCgw2pt--nBaqC9akJgiNdvZABMkconuRXWspqaCp4Y" />
+
 ## Interests
 
 <p align="justify">
