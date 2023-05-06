@@ -4,8 +4,6 @@ project:
 
 website:
   title: "Raphael Feser"
-  google-analytics: "G-625LHDBWFE"
-  cookie-consent: true
   site-url: https://raphaelfeser.github.io/
   description: "This is Raphael Feser online and extended CV."
   navbar:
