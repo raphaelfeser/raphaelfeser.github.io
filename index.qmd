@@ -1,5 +1,5 @@
 ---
-title: Raphaël Feser
+title: Raphael Feser
 subtitle: "Looking for new stimulating opportunities in life sciences."
 image: moi.png
 about:
@@ -86,6 +86,6 @@ My training has provided me with a solid foundation in experimental laboratory t
 
 <p>
 
-Outside my studies, I have been involved with several non-profit organisations engaged in pharmacy student's advocacy and global health, which has allowed me to gain valuable experiences and develop a wide range of soft skills. [\[see more\]](./about.html#advocacy-and-volunteerism){target="_blank"  style="caret-color: white; font-size: 11pt;"}
+Outside my studies, I have been involved with several non-profit organisations engaged in pharmacy student's advocacy and global health, which has allowed me to gain valuable experiences and develop a wide range of soft skills. [\[see more\]](./about.html#outreach-activities){target="_blank"  style="caret-color: white; font-size: 11pt;"}
 
 </details>

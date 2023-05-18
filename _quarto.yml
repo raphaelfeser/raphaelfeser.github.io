@@ -5,7 +5,7 @@ project:
 website:
   title: "Raphael Feser"
   site-url: https://raphaelfeser.github.io/
-  description: "This is Raphael Feser online and extended CV."
+  description: "This is Raphael Feser Paul online and extended CV. Raphaël"
   navbar:
     left:
       - href: index.qmd
