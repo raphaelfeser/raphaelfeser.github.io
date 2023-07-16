@@ -1,6 +1,6 @@
 ---
 title: Raphael Feser
-subtitle: "Looking for new stimulating opportunities in life sciences."
+subtitle: "MSc in Pharmacy"
 image: moi.png
 about:
   template: trestles
@@ -18,7 +18,7 @@ about:
       href: docs/msc_thesis_rf.pdf
 ---
 
-<meta name="description" content="Raphael Feser. Online and extended version of my CV. My training has provided me with a solid foundation in experimental laboratory techniques, but I have also been able to develop computational skills through my various experiences. I intend to use and develop my skills in exciting interdisciplinary projects contributing to a better understanding of the biochemistry of the human body, paving the way for the discovery of safer and more effective treatments. Raphael Paul Feser">
+<meta name="description" content="Raphael Feser. Online and extended version of my CV. My training has provided me with foundations in the experimental techniques employed in medicinal chemistry. Additionally I have also been able to develop computational skills through my various experiences. I intend to use and develop these skills in exciting interdisciplinary projects contributing to a better understanding of the biochemistry of the human body, paving the way for the discovery of safer and more effective treatments. Raphael Paul Feser">
 
 <meta name="google-site-verification" content="KCgw2pt--nBaqC9akJgiNdvZABMkconuRXWspqaCp4Y" />
 
@@ -26,7 +26,7 @@ about:
 
 <p align="justify">
 
-My training has provided me with a solid foundation in experimental laboratory techniques, but I have also been able to develop computational skills through my various experiences. I intend to use and develop my skills in exciting interdisciplinary projects contributing to a better understanding of the biochemistry of the human body, paving the way for the discovery of safer and more effective treatments.
+My training has provided me with foundations in the experimental techniques employed in medicinal chemistry. Additionally I have also been able to develop computational skills through my various experiences. I intend to use and develop these skills in exciting interdisciplinary projects contributing to a better understanding of the biochemistry of the human body, paving the way for the discovery of safer and more effective treatments.
 
 </p>
 
@@ -40,11 +40,11 @@ My training has provided me with a solid foundation in experimental laboratory t
 
 <p>
 
--   **Federal Diploma in Pharmacy** <br> (Pharm.D equivalent) \| *Expected Sept 2023*
+-   **Federal Diploma in Pharmacy** <br> (Pharm.D equivalent) \| *Expected Oct 2023*
 
     </p>
 
--   **M.Sc in Pharmacy** [\[more\]](https://ispso.unige.ch/ispso/contents/etudes/master.php?l=EN){target="_blank"} <br> University of Geneva \| *Expected July 2023*
+-   **M.Sc in Pharmacy** [\[more\]](https://ispso.unige.ch/ispso/contents/etudes/master.php?l=EN){target="_blank"} <br> University of Geneva \| July 2023
 
 -   **B.Sc in Pharmaceutical Sciences** [\[more\]](https://ispso.unige.ch/ispso/contents/etudes/bachelor.php){target="_blank"} <br> University of Geneva \| July 2021
 
