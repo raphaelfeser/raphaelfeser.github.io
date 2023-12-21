@@ -13,9 +13,6 @@ about:
     - text: ""
       icon: envelope
       href: mailto:raphael.feser@etu.unige.ch
-    - text: "M.Sc. Thesis"
-      icon: file-text
-      href: docs/msc_thesis_rf.pdf
 ---
 
 <meta name="description" content="Raphael Feser. Online and extended version of my CV. My training has provided me with foundations in the experimental techniques employed in medicinal chemistry. Additionally I have also been able to develop computational skills through my various experiences. I intend to use and develop these skills in exciting interdisciplinary projects contributing to a better understanding of the biochemistry of the human body, paving the way for the discovery of safer and more effective treatments. Raphael Paul Feser">
