@@ -23,7 +23,9 @@ about:
 
 <p align="justify">
 
-My training has provided me with foundations in the experimental techniques employed in medicinal chemistry. Additionally I have also been able to develop computational skills through my various experiences. I intend to use and develop these skills in exciting interdisciplinary projects contributing to a better understanding of the biochemistry of the human body, paving the way for the discovery of safer and more effective treatments.
+Pharmacist by training with a passion for research, I am currently pursuing a PhD in Biomolecular and Pharmaceutical Modelling. I use computer programming to investigate biological mechanisms and design new drugs. With diverse experiences across institutions in Geneva (UNIGE), Sydney (USYD & MIA), and London (UCL), I have developed a range of skills in Medicinal Chemistry, Cheminformatics, Statistical Modelling, and Machine Learning. 💻🔬
+
+I am always open to exploring new opportunities to learn and grow, both in industry and academia. In my free time, you can find me playing basketball, or embarking on train journeys to explore new cities. Let’s connect and discuss possibilities in pharma, as well as personal interests 🙌
 
 </p>
 
@@ -37,7 +39,7 @@ My training has provided me with foundations in the experimental techniques empl
 
 <p>
 
--   **Federal Diploma in Pharmacy** <br> (Pharm.D equivalent) \| *Expected Oct 2023*
+-   **Federal Diploma in Pharmacy** <br> (Pharm.D equivalent) \| *Oct 2023*
 
     </p>
 
@@ -67,7 +69,9 @@ My training has provided me with foundations in the experimental techniques empl
 
 <p>
 
--   **Master's Thesis in Molecular Modelling** [\[more\]](./about.html#master’s-thesis-university-college-london){target="_blank"  style="caret-color: white; font-size: 11pt;"} <br> University College London <br> Prof. Shozeb Haider & Prof. Francesco L. Gervasio
+-   **Doctoral student in Biomolecular and Pharmaceutical Modelling** <br> University College London <br> Prof. Shozeb Haider & Prof. Francesco L. Gervasio
+
+-   **Master's Thesis in Computational Biophysics** [\[more\]](./about.html#master’s-thesis-university-college-london){target="_blank"  style="caret-color: white; font-size: 11pt;"} <br> University College London <br> Prof. Shozeb Haider & Prof. Francesco L. Gervasio
 
 -   **Research Assistant in Statistics** [\[more\]](./about.html#student-research-assistant-university-of-geneva){target="_blank"  style="caret-color: white; font-size: 11pt;"} <br> University of Geneva <br> Prof. Stéphane Guerrier
 
