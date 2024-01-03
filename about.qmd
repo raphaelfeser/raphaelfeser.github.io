@@ -4,36 +4,48 @@ title: ""
 
 <img src="docs/me2.jpg" style="float:right;border-radius:50%;width:160px;padding:6px"/>
 
-# [Extended Curriculum Vitae]{.underline}
-
-<br><br>
 
 # Education
 
-------------------------------------------------------------------------
 
--   **Federal Diploma in Pharmacy** (Pharm.D equivalent) \| *Expected Sept 2023*
+-   **Ph.D in Biomolecular Modelling** - University of Geneva \| Ongoing
+-   **Federal Diploma in Pharmacy** (Pharm.D equivalent) \| Oct 2023
 -   **M.Sc in Pharmacy** - University of Geneva \| July 2023
 -   **B.Sc in Pharmaceutical Sciences** - University of Geneva \| July 2021
 -   **Swiss Matura (High School Diploma)** - Gymnase de Nyon \| July 2018
 
 
+**__________________**
+
 <br>
 
 # Experience
 
+<h5>**Ph.D in Biomolecular Modelling** - **University of Geneva**</h5>
+
+**Prof. Francesco L. Gervasio** <br> *Ongoing*
+
+Currently, my focus is on G protein-coupled receptors (GPCRs), the largest family of receptors in the human body, which play a crucial role in numerous physiological functions, making them important targets for drug discovery. A detailed understanding of their activation mechanisms, from drug binding to effector signalling, will improve rational drug design. I aim to achieve this by using enhanced sampling molecular dynamics (MD) simulations in conjunction with other molecular modelling methods.
 
 
+{{< mol-rcsb 8dcr >}}
+*Structure of a typical Class A GPCR (β1-AR in green) bound to an agonist drug (dobutamine) and in complex with a G Protein (GαsGβ1Gγ2). See the [PDB Entry - 8DCR](https://doi.org/10.2210/pdb8dcr/pdb).*
 
-<h5>**Trainee Pharmacist - Pharmacie de L'Ile**</h5> *Jan 2023 - Currently*
+</p>
 
 ---
+
+<br>
+
+<h5>**Trainee Pharmacist - Pharmacie de L'Ile**</h5> *Jan 2023 - June 2023*
 
 <p align="justify">
 
 This training is an integral and mandatory part of my Pharm.D where I ensure that patients receive optimal treatments (even in the current drug shortage environment) and proper advices. I also assist pharmacists in the final review of prescriptions, assessing their adequacy and safety. I am committed to working collaboratively with patients by involving them in their own care.
 
 </p>
+
+![The image depicts the advice corner of the community pharmacy in Rolle, where I received my training. The pharmacy is known for its excellent setting to provide the best advice to patients](docs/pharmacieplus-ile-pharmacie-rolle-service-sante-1667917458.jpg){width="70%"}
 
 ---
 
@@ -44,8 +56,6 @@ This training is an integral and mandatory part of my Pharm.D where I ensure tha
 <h5>**Master's Thesis** - **University College London**</h5>
 
 **Prof. Shozeb Haider & Prof. Francesco L. Gervasio** <br> *Aug 2022 - Dec 2022*
-
----
   
 <p align="justify">
 
@@ -73,8 +83,6 @@ Additionally, I was involved in the development of pancreatic cancer vaccines us
 
 **Prof. Stephane Guerrier** <br> *Aug 2022 - Currently*
 
----
-
 <p align="justify">
 
 I scripted Monte Carlo simulations in R to compare statistical methods, performed data analysis, and developed Shiny web application for visualizing the results. I also scripted custom bootstrap resampling script to estimate population parameters in training data sets.
@@ -99,8 +107,6 @@ I scripted Monte Carlo simulations in R to compare statistical methods, performe
 
 **Prof. Serigne Lo** <br> *July 2022 - Aug 2022*
 
----
-
 <p align="justify">
 
 Using the world's largest melanoma database, I analyzed a dataset of 6,000 patients followed in a 17-year longitudinal study aiming to evaluate the effectiveness of sentinel lymph node biopsy in melanoma patients. I wrote scripts in R using a range of statistical approaches, such as Cox Regression Model and Propensity Score Stratification. From the analysis I generated tables and graphs to present the findings.
@@ -119,8 +125,6 @@ Using the world's largest melanoma database, I analyzed a dataset of 6,000 patie
 
 **Dr Sébastien Tardy & Prof. Leonardo Scapozza** <br> *Feb 2021 - Apr 2021*
 
----
-
 <p align="justify">
 
 Open Synthesis Network is a project in which students are involved in the initial stages of research into neglected diseases. All students are tasked with synthesising a molecule that has never been synthesised before. These molecules are analogues of a previously identified molecule active against Chagas disease. The general objective of the project is to test the activity, toxicity and pharmacokinetic parameters of all these analogues in order to find a candidate and propose a SAR for the target. I successfully synthesised and purified my assigned analogue, using pharmaceutical chemistry process and analytical techniques such as TLC, H-NMR, C-NMR, HPLC-MS and FTIR results.
@@ -137,8 +141,6 @@ Open Synthesis Network is a project in which students are involved in the initia
 
 <h5>**Laboratory Assistant** - **Firmenich SA**</h5>
 
----
-
 <p align="justify">
 
 I prepared fragrance blends from laboratory compounds and in-house technologies for home care, body care and fine perfumery. Additionally, I was responsible for sample management tasks, including labeling, preparation for shipment, transportation to laboratories, inventory and disposal.
@@ -149,7 +151,7 @@ I prepared fragrance blends from laboratory compounds and in-house technologies 
 
 <br><br>
 
-## Outreach activities
+# Outreach activities
 
 <img src="docs/volunteer_speaker.jpg" width="70%" height="70%"/>
 

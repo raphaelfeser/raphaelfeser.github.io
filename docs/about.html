@@ -39,6 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/molstar-v3.13.0/molstar.js"></script>
+<link href="site_libs/quarto-contrib/molstar-v3.13.0/molstar.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/molstar-v3.13.0/app-container.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -104,12 +107,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#extended-curriculum-vitae" id="toc-extended-curriculum-vitae" class="nav-link active" data-scroll-target="#extended-curriculum-vitae"><u>Extended Curriculum Vitae</u></a></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a>
-  <ul class="collapse">
+  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
+  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
   <li><a href="#outreach-activities" id="toc-outreach-activities" class="nav-link" data-scroll-target="#outreach-activities">Outreach activities</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -119,38 +119,54 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><img src="docs/me2.jpg" style="float:right;border-radius:50%;width:160px;padding:6px"></p>
-<section id="extended-curriculum-vitae" class="level1">
-<h1><u>Extended Curriculum Vitae</u></h1>
-<p><br><br></p>
-</section>
 <section id="education" class="level1">
 <h1>Education</h1>
-<hr>
 <ul>
-<li><strong>Federal Diploma in Pharmacy</strong> (Pharm.D equivalent) | <em>Expected Sept 2023</em></li>
+<li><strong>Ph.D in Biomolecular Modelling</strong> - University of Geneva | Ongoing</li>
+<li><strong>Federal Diploma in Pharmacy</strong> (Pharm.D equivalent) | Oct 2023</li>
 <li><strong>M.Sc in Pharmacy</strong> - University of Geneva | July 2023</li>
 <li><strong>B.Sc in Pharmaceutical Sciences</strong> - University of Geneva | July 2021</li>
 <li><strong>Swiss Matura (High School Diploma)</strong> - Gymnase de Nyon | July 2018</li>
 </ul>
+<p><strong>__________________</strong></p>
 <p><br></p>
 </section>
 <section id="experience" class="level1">
 <h1>Experience</h1>
+<h5 class="anchored" data-anchor-id="experience">
+<strong>Ph.D in Biomolecular Modelling</strong> - <strong>University of Geneva</strong>
+</h5>
+<p><strong>Prof.&nbsp;Francesco L. Gervasio</strong> <br> <em>Ongoing</em></p>
+<p>Currently, my focus is on G protein-coupled receptors (GPCRs), the largest family of receptors in the human body, which play a crucial role in numerous physiological functions, making them important targets for drug discovery. A detailed understanding of their activation mechanisms, from drug binding to effector signalling, will improve rational drug design. I aim to achieve this by using enhanced sampling molecular dynamics (MD) simulations in conjunction with other molecular modelling methods.</p>
+    <div id="app-8dcr" class="molstar-app"></div>
+    <script type="text/javascript">
+    molstar.Viewer.create("app-8dcr", {"viewportShowExpand":true,"layoutShowSequence":false,"viewportShowSelectionMode":false,"layoutIsExpanded":false,"layoutShowRemoteState":false,"layoutShowControls":false,"emdbProvider":"rcsb","viewportShowAnimation":true,"layoutShowLog":false,"pdbProvider":"rcsb","layoutShowLeftPanel":true}).then(viewer => {
+    viewer.loadPdb("8dcr");    });
+    </script>
+    
+<p><em>Structure of a typical Class A GPCR (β1-AR in green) bound to an agonist drug (dobutamine) and in complex with a G Protein (GαsGβ1Gγ2). See the <a href="https://doi.org/10.2210/pdb8dcr/pdb">PDB Entry - 8DCR</a>.</em></p>
+<p></p>
+<hr>
+<p><br></p>
 <h5 class="anchored">
 <strong>Trainee Pharmacist - Pharmacie de L’Ile</strong>
 </h5>
-<p><em>Jan 2023 - Currently</em></p>
-<hr>
+<p><em>Jan 2023 - June 2023</em></p>
 <p align="justify">
 </p><p>This training is an integral and mandatory part of my Pharm.D where I ensure that patients receive optimal treatments (even in the current drug shortage environment) and proper advices. I also assist pharmacists in the final review of prescriptions, assessing their adequacy and safety. I am committed to working collaboratively with patients by involving them in their own care.</p>
 <p></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="docs/pharmacieplus-ile-pharmacie-rolle-service-sante-1667917458.jpg" class="img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption">The image depicts the advice corner of the community pharmacy in Rolle, where I received my training. The pharmacy is known for its excellent setting to provide the best advice to patients</figcaption><p></p>
+</figure>
+</div>
 <hr>
 <p><br></p>
 <h5 class="anchored">
 <strong>Master’s Thesis</strong> - <strong>University College London</strong>
 </h5>
 <p><strong>Prof.&nbsp;Shozeb Haider &amp; Prof.&nbsp;Francesco L. Gervasio</strong> <br> <em>Aug 2022 - Dec 2022</em></p>
-<hr>
 <p align="justify">
 </p><p>I studied the activation of human and murine LHCGR by an allosteric small molecule agonist using homology modelling and performing molecular dynamics simulation studies. I was able to highlight interesting drug-mediated activation mechanisms that may be useful for designing more potent drugs. Furthermore, the results suggest differences in human and mouse binding sites, implying that the use of mouse animal models is not optimal for predicting the structure-related effects of this drug.</p>
 <p></p>
@@ -175,7 +191,6 @@ ul.task-list li input[type="checkbox"] {
 <strong>Student Research Assistant</strong> - <strong>University of Geneva</strong>
 </h5>
 <p><strong>Prof.&nbsp;Stephane Guerrier</strong> <br> <em>Aug 2022 - Currently</em></p>
-<hr>
 <p align="justify">
 </p><p>I scripted Monte Carlo simulations in R to compare statistical methods, performed data analysis, and developed Shiny web application for visualizing the results. I also scripted custom bootstrap resampling script to estimate population parameters in training data sets.</p>
 <div class="quarto-layout-panel">
@@ -205,7 +220,6 @@ ul.task-list li input[type="checkbox"] {
 <strong>Research Internship</strong> - <strong>Melanoma Institute Australia</strong>
 </h5>
 <p><strong>Prof.&nbsp;Serigne Lo</strong> <br> <em>July 2022 - Aug 2022</em></p>
-<hr>
 <p align="justify">
 </p><p>Using the world’s largest melanoma database, I analyzed a dataset of 6,000 patients followed in a 17-year longitudinal study aiming to evaluate the effectiveness of sentinel lymph node biopsy in melanoma patients. I wrote scripts in R using a range of statistical approaches, such as Cox Regression Model and Propensity Score Stratification. From the analysis I generated tables and graphs to present the findings.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -221,7 +235,6 @@ ul.task-list li input[type="checkbox"] {
 <strong>Open Synthesis Network</strong> - <strong>DNDi &amp; University of Geneva</strong>
 </h5>
 <p><strong>Dr Sébastien Tardy &amp; Prof.&nbsp;Leonardo Scapozza</strong> <br> <em>Feb 2021 - Apr 2021</em></p>
-<hr>
 <p align="justify">
 </p><p>Open Synthesis Network is a project in which students are involved in the initial stages of research into neglected diseases. All students are tasked with synthesising a molecule that has never been synthesised before. These molecules are analogues of a previously identified molecule active against Chagas disease. The general objective of the project is to test the activity, toxicity and pharmacokinetic parameters of all these analogues in order to find a candidate and propose a SAR for the target. I successfully synthesised and purified my assigned analogue, using pharmaceutical chemistry process and analytical techniques such as TLC, H-NMR, C-NMR, HPLC-MS and FTIR results.</p>
 <p></p>
@@ -237,14 +250,14 @@ ul.task-list li input[type="checkbox"] {
 <h5 class="anchored">
 <strong>Laboratory Assistant</strong> - <strong>Firmenich SA</strong>
 </h5>
-<hr>
 <p align="justify">
 </p><p>I prepared fragrance blends from laboratory compounds and in-house technologies for home care, body care and fine perfumery. Additionally, I was responsible for sample management tasks, including labeling, preparation for shipment, transportation to laboratories, inventory and disposal.</p>
 <p></p>
 <hr>
 <p><br><br></p>
-<section id="outreach-activities" class="level2">
-<h2 class="anchored" data-anchor-id="outreach-activities">Outreach activities</h2>
+</section>
+<section id="outreach-activities" class="level1">
+<h1>Outreach activities</h1>
 <p><img src="docs/volunteer_speaker.jpg" width="70%" height="70%"></p>
 <p></p>
 <p><em>Aug 2022</em> | <strong>Vice-Chairperson of the 4th IPSF EuRO Symposium</strong></p>
@@ -284,7 +297,6 @@ ul.task-list li input[type="checkbox"] {
 <p></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

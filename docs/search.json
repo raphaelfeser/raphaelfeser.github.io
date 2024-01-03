@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "Education",
     "section": "",
-    "text": "raphael.feser@etu.unige.ch  mobile: +852 xxxxxxxx  Nationality: Swiss"
+    "text": "Education\n\nPh.D in Biomolecular Modelling - University of Geneva | Ongoing\nFederal Diploma in Pharmacy (Pharm.D equivalent) | Oct 2023\nM.Sc in Pharmacy - University of Geneva | July 2023\nB.Sc in Pharmaceutical Sciences - University of Geneva | July 2021\nSwiss Matura (High School Diploma) - Gymnase de Nyon | July 2018\n\n__________________\n\n\n\nExperience\n\nPh.D in Biomolecular Modelling - University of Geneva\n\nProf. Francesco L. Gervasio  Ongoing\nCurrently, my focus is on G protein-coupled receptors (GPCRs), the largest family of receptors in the human body, which play a crucial role in numerous physiological functions, making them important targets for drug discovery. A detailed understanding of their activation mechanisms, from drug binding to effector signalling, will improve rational drug design. I aim to achieve this by using enhanced sampling molecular dynamics (MD) simulations in conjunction with other molecular modelling methods.\n    \n    \n    \nStructure of a typical Class A GPCR (β1-AR in green) bound to an agonist drug (dobutamine) and in complex with a G Protein (GαsGβ1Gγ2). See the PDB Entry - 8DCR.\n\n\n\n\nTrainee Pharmacist - Pharmacie de L’Ile\n\nJan 2023 - June 2023\n\nThis training is an integral and mandatory part of my Pharm.D where I ensure that patients receive optimal treatments (even in the current drug shortage environment) and proper advices. I also assist pharmacists in the final review of prescriptions, assessing their adequacy and safety. I am committed to working collaboratively with patients by involving them in their own care.\n\n\n\n\nThe image depicts the advice corner of the community pharmacy in Rolle, where I received my training. The pharmacy is known for its excellent setting to provide the best advice to patients\n\n\n\n\n\nMaster’s Thesis - University College London\n\nProf. Shozeb Haider & Prof. Francesco L. Gervasio  Aug 2022 - Dec 2022\n\nI studied the activation of human and murine LHCGR by an allosteric small molecule agonist using homology modelling and performing molecular dynamics simulation studies. I was able to highlight interesting drug-mediated activation mechanisms that may be useful for designing more potent drugs. Furthermore, the results suggest differences in human and mouse binding sites, implying that the use of mouse animal models is not optimal for predicting the structure-related effects of this drug.\n\n\n\n\nORG43553 is a small molecule capable of activating LHCGR in vitro. This property is particularly interesting since the endogenous LHCGR receptor agonists are peptides. This ligand holds promise for the development of orally active drugs to replace the limited use of injectable CG and LH in the treatment of reproductive disorders and assisted reproductive technologies.\n\n\n\nAdditionally, I was involved in the development of pancreatic cancer vaccines using patient neoantigens. I created an automated program using Python and Unix Bash Script to build homology models of patient’s neoantigen epitopes sequenced at The Johns Hopkins Hospital. The structural insights gained from these models were used to predict the immunogenicity of the epitopes, aiding rational vaccine development.\n\n\n\n\nThe image displays two illustrations of the same model of a neoantigen-CMH complex. The mutant amino-acid, represented by the spheres in both illustrations, exhibits a high solvent-accessible surface area (SASA). It is plausible that such solvent exposure may facilitate the recognition of the neoantigen as “non-self” by the immune cell encountering this complex, thereby eliciting immunogenicity.\n\n\n\n\n\nStudent Research Assistant - University of Geneva\n\nProf. Stephane Guerrier  Aug 2022 - Currently\n\nI scripted Monte Carlo simulations in R to compare statistical methods, performed data analysis, and developed Shiny web application for visualizing the results. I also scripted custom bootstrap resampling script to estimate population parameters in training data sets.\n\n\n\n\n\n\nThe figure depicts simulated probabilities of declaring two drugs as bioequivalent under different conditions, using the two one-sided t-test (TOST) procedure in red and an adjusted version of the TOST procedure in blue.\n\n\n\n\n\n\n\nA Monte Carlo simulation was used to evaluate the performance of various bootstrap techniques in estimating confidence intervals for parameter estimates of a linear regression. The results are displayed in the graph, which presents the coverage rates for each method.\n\n\n\n\n\n\n\n\n\nResearch Internship - Melanoma Institute Australia\n\nProf. Serigne Lo  July 2022 - Aug 2022\n\nUsing the world’s largest melanoma database, I analyzed a dataset of 6,000 patients followed in a 17-year longitudinal study aiming to evaluate the effectiveness of sentinel lymph node biopsy in melanoma patients. I wrote scripts in R using a range of statistical approaches, such as Cox Regression Model and Propensity Score Stratification. From the analysis I generated tables and graphs to present the findings.\n\n\n\nAlthough sentinel lymph node biopsy (SLNB) can provide useful information about cancer progression, it also carries surgical risks. In my analysis, I created and interpreted several tables and graphs to assess the effectiveness of SLNB and determine appropriate patient selection criteria. This graph shows the melanoma-specific survival rates of patients who underwent SLNB (blue) versus those who did not (red).\n\n\n\n\n\n\nOpen Synthesis Network - DNDi & University of Geneva\n\nDr Sébastien Tardy & Prof. Leonardo Scapozza  Feb 2021 - Apr 2021\n\nOpen Synthesis Network is a project in which students are involved in the initial stages of research into neglected diseases. All students are tasked with synthesising a molecule that has never been synthesised before. These molecules are analogues of a previously identified molecule active against Chagas disease. The general objective of the project is to test the activity, toxicity and pharmacokinetic parameters of all these analogues in order to find a candidate and propose a SAR for the target. I successfully synthesised and purified my assigned analogue, using pharmaceutical chemistry process and analytical techniques such as TLC, H-NMR, C-NMR, HPLC-MS and FTIR results.\n\n\n\n\nThis illustration offers an overview of the four essential steps that I employed in the synthesis of my assigned analog. The Hit molecule is displayed in the upper left corner, and it exhibited a micromolar level of activity against T.cruzi.\n\n\n\n\nJuly 2018 - Aug 2018\n\nLaboratory Assistant - Firmenich SA\n\n\nI prepared fragrance blends from laboratory compounds and in-house technologies for home care, body care and fine perfumery. Additionally, I was responsible for sample management tasks, including labeling, preparation for shipment, transportation to laboratories, inventory and disposal.\n\n\n\n\n\nOutreach activities\n\n\nAug 2022 | Vice-Chairperson of the 4th IPSF EuRO Symposium\n\nAppointed Vice-Chairperson in a team of 20 motivated student to organize a educative event gathering students from all over Europe. All of this with the appreciated support of the city of Bern, the Swiss U Change Fund and private sponsors.\n\nMai 2022 | Guest Speaker at 132. BVT - Leipzig\n\nI participated in the national weekend of the BPhD (German Association of Pharmacy Students), where I spoke about the possibilities of student engagement at European and global level.\nMai 2022 | Delegate at the Geneva Health Forum 2022\n\nI was at the Fight the Fake Alliance’s Booth speaking about the challenges and issues associated with substandard and falsified medicines. I also had the opportunity to participate in various sessions and have enriching exchanges.\n\nJan 2022 | Head of Public Relations - asep\n\nI was elected to the board of asep (Swiss Association of Pharmacy Students), responsible for a team aiming to maintain a good image of the association and to develop the association’s relations with external stakeholders.\n\nOct 2021 | Delegate at the 43rd EPSA Annual Congress - Lyon\n\nI attended the congress of EPSA (European Pharmacy Student’s Association) as an Offical Delegate to vote, debate and speak on behalf of the Swiss students\n\nOct 2021 | Guest Speaker at PsyKo 2021 - Leysins\n\nAt the Swiss national psychology student’s congress, I held a presentation on depressive disorders, with the perspective of pharmacy students, discussing pre-clinical research concepts and suggesting on the potential role of collaboration between pharmacists and psychologists\n\nAug 2021 | Delegate at the 66th IPSF World Congress - Seoul\n\nI Attended the congress as an Offical Delegate to vote, debate and speak on behalf of the Swiss students\n\nFeb 2021 | Co-Host of the Digital Health Panel Discussion\n\nCo-organised and moderated a panel involving committed speakers from pharmacy, start-ups and academia to present their work related to digital health and answer students’ questions.\n\nJan 2021 | Contact Person to IPSF\n\nElected by asep to represent the Swiss students in the International Pharmaceutical Student’s Federation (IPSF), which is the umbrella organisation for pharmacy student’s association representing more than 500,000 students from over 100 countries worldwide. IPSF collaborates with many organisations such as WHO, UN, FIP, IFPMA and national stakeholders. I have supported student interests on topics such as education, the pharmacists’ evolving profession and Global Health."
   },
   {
     "objectID": "index.html#heading",
@@ -179,7 +179,7 @@
     "href": "index.html#interests",
     "title": "Raphael Feser",
     "section": "Interests",
-    "text": "Interests\n\nPharmacist by training with a passion for research, I am currently pursuing a PhD in Biomolecular and Pharmaceutical Modelling. I use computer programming to investigate biological mechanisms and design new drugs. With diverse experiences across institutions in Geneva (UNIGE), Sydney (USYD & MIA), and London (UCL), I have developed a range of skills in Medicinal Chemistry, Cheminformatics, Statistical Modelling, and Machine Learning. 💻🔬\nI am always open to exploring new opportunities to learn and grow, both in industry and academia. In my free time, you can find me playing basketball, or embarking on train journeys to explore new cities. Let’s connect and discuss possibilities in pharma, as well as personal interests 🙌"
+    "text": "Interests\n\nPharmacist by training with a passion for research, I am currently pursuing a PhD in Biomolecular and Pharmaceutical Modelling. I use computer programming to investigate biological mechanisms and design new drugs. With diverse experiences across institutions in Geneva (UNIGE), Sydney (USYD & MIA), and London (UCL), I have developed a range of skills in Medicinal Chemistry, Cheminformatics, Statistical Modelling, and Machine Learning. 💻🔬\n\nI am always open to exploring new opportunities to learn and grow, both in industry and academia. In my free time, you can find me playing basketball, or embarking on train journeys to explore new cities. Let’s connect and discuss possibilities in pharma, as well as personal interests 🙌"
   },
   {
     "objectID": "about.html#r-notes",
@@ -193,13 +193,104 @@
     "href": "index.html#experience",
     "title": "Raphael Feser",
     "section": "Experience",
-    "text": "Experience\n\n\nEducation\n\n\n\nFederal Diploma in Pharmacy  (Pharm.D equivalent) | Oct 2023\n\nM.Sc in Pharmacy [more]  University of Geneva | July 2023\nB.Sc in Pharmaceutical Sciences [more]  University of Geneva | July 2021\nSwiss Matura (High School Diploma)  Gymnase de Nyon | July 2018 \n\n\n\nProfessional training\n\n\n\nTrainee Pharmacist - Pharmacie de L’Ile [more]\nLaboratory Assistant - Firmenich SA [more] \n\n\n\n\nResearch experience\n\n\n\nDoctoral student in Biomolecular and Pharmaceutical Modelling  University College London  Prof. Shozeb Haider & Prof. Francesco L. Gervasio\nMaster’s Thesis in Computational Biophysics [more]  University College London  Prof. Shozeb Haider & Prof. Francesco L. Gervasio\nResearch Assistant in Statistics [more]  University of Geneva  Prof. Stéphane Guerrier\nResearch Internship in Biostatistics [more]  Melanoma Institute Australia  Prof. Serigne Lo\nOpen Synthesis Network [more]  DNDi & University of Geneva  Dr Sébastien Tardy & Prof. Leonardo Scapozza \n\n\n\n\nOutreach activities\n\n\nOutside my studies, I have been involved with several non-profit organisations engaged in pharmacy student’s advocacy and global health, which has allowed me to gain valuable experiences and develop a wide range of soft skills. [see more]"
+    "text": "Experience\n\n\nEducation\n\n\n\nPh.D in Biomolecular Modelling [more]  University of Geneva | Ongoing\nFederal Diploma in Pharmacy (Pharm.D)  Swiss Federal Departement of Home Affairs (FDHA) | Oct 2023\n\nM.Sc in Pharmacy [more]  University of Geneva | July 2023\nB.Sc in Pharmaceutical Sciences [more]  University of Geneva | July 2021\nSwiss Matura (High School Diploma)  Gymnase de Nyon | July 2018 \n\n\n\nProfessional training\n\n\n\nTeaching & Research Assistant - University of Geneva\nTrainee Pharmacist - Pharmacie de L’Ile [more]\nLaboratory Assistant - Firmenich SA [more] \n\n\n\n\nResearch experience\n\n\n\n\nMaster’s Thesis in Computational Biophysics [more]  University College London  Prof. Shozeb Haider & Prof. Francesco L. Gervasio\nResearch Assistant in Statistics [more]  University of Geneva  Prof. Stéphane Guerrier\nResearch Internship in Biostatistics [more]  Melanoma Institute Australia  Prof. Serigne Lo\nOpen Synthesis Network [more]  DNDi & University of Geneva  Dr Sébastien Tardy & Prof. Leonardo Scapozza \n\n\n\n\nOutreach activities\n\n\nOutside my studies, I have been involved with several non-profit organisations engaged in pharmacy student’s advocacy and global health, which has allowed me to gain valuable experiences and develop a wide range of soft skills. [see more]"
   },
   {
     "objectID": "about.html#outreach-activities",
     "href": "about.html#outreach-activities",
-    "title": "Extended Curriculum Vitae",
+    "title": "Education",
     "section": "Outreach activities",
     "text": "Outreach activities\n\n\nAug 2022 | Vice-Chairperson of the 4th IPSF EuRO Symposium\n\nAppointed Vice-Chairperson in a team of 20 motivated student to organize a educative event gathering students from all over Europe. All of this with the appreciated support of the city of Bern, the Swiss U Change Fund and private sponsors.\n\nMai 2022 | Guest Speaker at 132. BVT - Leipzig\n\nI participated in the national weekend of the BPhD (German Association of Pharmacy Students), where I spoke about the possibilities of student engagement at European and global level.\nMai 2022 | Delegate at the Geneva Health Forum 2022\n\nI was at the Fight the Fake Alliance’s Booth speaking about the challenges and issues associated with substandard and falsified medicines. I also had the opportunity to participate in various sessions and have enriching exchanges.\n\nJan 2022 | Head of Public Relations - asep\n\nI was elected to the board of asep (Swiss Association of Pharmacy Students), responsible for a team aiming to maintain a good image of the association and to develop the association’s relations with external stakeholders.\n\nOct 2021 | Delegate at the 43rd EPSA Annual Congress - Lyon\n\nI attended the congress of EPSA (European Pharmacy Student’s Association) as an Offical Delegate to vote, debate and speak on behalf of the Swiss students\n\nOct 2021 | Guest Speaker at PsyKo 2021 - Leysins\n\nAt the Swiss national psychology student’s congress, I held a presentation on depressive disorders, with the perspective of pharmacy students, discussing pre-clinical research concepts and suggesting on the potential role of collaboration between pharmacists and psychologists\n\nAug 2021 | Delegate at the 66th IPSF World Congress - Seoul\n\nI Attended the congress as an Offical Delegate to vote, debate and speak on behalf of the Swiss students\n\nFeb 2021 | Co-Host of the Digital Health Panel Discussion\n\nCo-organised and moderated a panel involving committed speakers from pharmacy, start-ups and academia to present their work related to digital health and answer students’ questions.\n\nJan 2021 | Contact Person to IPSF\n\nElected by asep to represent the Swiss students in the International Pharmaceutical Student’s Federation (IPSF), which is the umbrella organisation for pharmacy student’s association representing more than 500,000 students from over 100 countries worldwide. IPSF collaborates with many organisations such as WHO, UN, FIP, IFPMA and national stakeholders. I have supported student interests on topics such as education, the pharmacists’ evolving profession and Global Health."
+  },
+  {
+    "objectID": "test2.html",
+    "href": "test2.html",
+    "title": "Molstar example",
+    "section": "",
+    "text": "https://github.com/jmbuhr/quarto-molstar\n\n\nGet a protein from the RCSB PDB with:\n{{&lt; mol-rcsb 7sgl &gt;}}"
+  },
+  {
+    "objectID": "test2.html#rcsb-pdb",
+    "href": "test2.html#rcsb-pdb",
+    "title": "Molstar example",
+    "section": "",
+    "text": "Get a protein from the RCSB PDB with:\n{{&lt; mol-rcsb 7sgl &gt;}}"
+  },
+  {
+    "objectID": "test2.html#alphafold-model.",
+    "href": "test2.html#alphafold-model.",
+    "title": "Molstar example",
+    "section": "",
+    "text": "Load the predicted structure of a protein from the AlphaFold Database using the AlphaFold Database ID. The loaded structure is coloured based on the prediction score.\n{{&lt; mol-afdb Q8W3K0 &gt;}}"
+  },
+  {
+    "objectID": "test2.html#local-pdb-file",
+    "href": "test2.html#local-pdb-file",
+    "title": "Molstar example",
+    "section": "",
+    "text": "Get a local pdb file with:\n{{&lt; mol-url ./www/7sgl.pdb &gt;}}"
+  },
+  {
+    "objectID": "test2.html#pdb-file-from-url",
+    "href": "test2.html#pdb-file-from-url",
+    "title": "Molstar example",
+    "section": "",
+    "text": "Get a pdb file from a url:\n{{&lt; mol-url https://files.rcsb.org/download/7sgl.pdb &gt;}}"
+  },
+  {
+    "objectID": "test2.html#local-xyz-file",
+    "href": "test2.html#local-xyz-file",
+    "title": "Molstar example",
+    "section": "",
+    "text": "Get a local xyz file with:\n{{&lt; mol-url ./www/example.xyz &gt;} }"
+  },
+  {
+    "objectID": "test2.html#local-pdb-and-trajectory",
+    "href": "test2.html#local-pdb-and-trajectory",
+    "title": "Molstar example",
+    "section": "",
+    "text": "Load a topology and a trajectory with:\n{{&lt; mol-traj ./www/example.pdb ./www/example.xtc &gt;}}"
+  },
+  {
+    "objectID": "test2.html#snapshot-file",
+    "href": "test2.html#snapshot-file",
+    "title": "Molstar example",
+    "section": "",
+    "text": "Load a snapshot file, to share a saved Mol* session which will save aesthetic parameters and scene setup.\n{{&lt; mol-snapshot ./www/molstar.molj &gt;}}"
+  },
+  {
+    "objectID": "test2.html#local-file-with-volume-information",
+    "href": "test2.html#local-file-with-volume-information",
+    "title": "Molstar example",
+    "section": "",
+    "text": "{{&lt; mol-volume ./www/traj.xyz ./www/density.cube &gt;}}"
+  },
+  {
+    "objectID": "test2.html#customization",
+    "href": "test2.html#customization",
+    "title": "Molstar example",
+    "section": "",
+    "text": "The first argument (plus the second for mol-traj) is a positional argument. After this you can pass keyword arguments, which will be merged with defaults and passed on to molstar.Viewer.create. For example, if you don’t have an animation you might want to hide the animation button and open the right options panel on load:\n{{&lt; mol-rcsb 7sgl viewportShowAnimation=false layoutShowLeftPanel=false layoutShowControls=true &gt;}}\nThere is a list of available options in the molstar source code: here.\nExample\n{{&lt; mol-rcsb 7eqr viewportShowAnimation=false &gt;}}\n    \n    \n    \n\n\n\nTo embed plain text files (such as .pdb, .xyz) into the rendered html, add this to your yml header:\nmolstar: embed\nThe molecules will then also appear if you open the html file without a web server. Note that this can increase the size of the file significantly and only works with the mol-url shortcode. It does not work for binary trajectory formats such as xtc.\n\n\n\nEach embedded app is inserted into a div with an ID created from the path of the pdb-file or trajectory (please don’t embed the same thing twice, it will only show up once). So the first app on this page will respond to css for #app-7sgl.\nAll apps have the class molstar-app and the following css is included by default:\n.molstar-app {\n  position: relative;\n  width: 100%;\n  padding-bottom: 56.25%;\n}\nFor example, you might want to make one app a bit shorter because there is text above it:\n#app-7sgl {\n  padding-bottom: 40%;\n}"
+  },
+  {
+    "objectID": "index.html#phd-projects",
+    "href": "index.html#phd-projects",
+    "title": "Raphael Feser",
+    "section": "PhD Projects",
+    "text": "PhD Projects\nI use simulation, modelling and free energy calculations to study the activation of proteins. Currently, my main project focus is on G protein-coupled receptors (GPCRs), the largest family of receptors in the human body, which play a crucial role in numerous physiological functions, making them important targets for drug discovery. A detailed understanding of their activation mechanisms, from drug binding to effector signalling, will improve rational drug design. I aim to achieve this by using enhanced sampling molecular dynamics (MD) simulations in conjunction with other molecular modelling methods.\n    \n    \n    Structure of a typical Class A GPCR (β1-AR in green) bound to an agonist drug (dobutamine) and in complex with a G Protein (GαsGβ1Gγ2). See the PDB Entry - 8DCR."
+  },
+  {
+    "objectID": "index.html#main-project",
+    "href": "index.html#main-project",
+    "title": "Raphael Feser",
+    "section": "Main Project",
+    "text": "Main Project\nCurrently, my focus is on G protein-coupled receptors (GPCRs), the largest family of receptors in the human body, which play a crucial role in numerous physiological functions, making them important targets for drug discovery. A detailed understanding of their activation mechanisms, from drug binding to effector signalling, will improve rational drug design. I aim to achieve this by using enhanced sampling molecular dynamics (MD) simulations in conjunction with other molecular modelling methods.\n    \n    \nStructure of a typical Class A GPCR (β1-AR in green) bound to an agonist drug (dobutamine) and in complex with a G Protein (GαsGβ1Gγ2). See the PDB Entry - 8DCR."
+  },
+  {
+    "objectID": "about.html#section",
+    "href": "about.html#section",
+    "title": "Extended Curriculum Vitae",
+    "section": "———",
+    "text": "———"
   }
 ]
