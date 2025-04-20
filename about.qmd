@@ -2,152 +2,8 @@
 title: ""
 ---
 
-<img src="docs/me2.jpg" style="float:right;border-radius:50%;width:160px;padding:6px"/>
+<img src="moi2.jpg" style="float:right;border-radius:50%;width:160px;padding:6px"/>
 
-
-# Education
-
-
--   **Ph.D in Biomolecular Modelling** - University of Geneva \| Ongoing
--   **Federal Diploma in Pharmacy** (Pharm.D equivalent) \| Oct 2023
--   **M.Sc in Pharmacy** - University of Geneva \| July 2023
--   **B.Sc in Pharmaceutical Sciences** - University of Geneva \| July 2021
--   **Swiss Matura (High School Diploma)** - Gymnase de Nyon \| July 2018
-
-
-**__________________**
-
-<br>
-
-# Experience
-
-<h5>**Ph.D in Biomolecular Modelling** - **University of Geneva**</h5>
-
-**Prof. Francesco L. Gervasio** <br> *Ongoing*
-
-Currently, my focus is on G protein-coupled receptors (GPCRs), the largest family of receptors in the human body, which play a crucial role in numerous physiological functions, making them important targets for drug discovery. A detailed understanding of their activation mechanisms, from drug binding to effector signalling, will improve rational drug design. I aim to achieve this by using enhanced sampling molecular dynamics (MD) simulations in conjunction with other molecular modelling methods.
-
-
-{{< mol-rcsb 8dcr >}}
-*Structure of a typical Class A GPCR (β1-AR in green) bound to an agonist drug (dobutamine) and in complex with a G Protein (GαsGβ1Gγ2). See the [PDB Entry - 8DCR](https://doi.org/10.2210/pdb8dcr/pdb).*
-
-</p>
-
----
-
-<br>
-
-<h5>**Trainee Pharmacist - Pharmacie de L'Ile**</h5> *Jan 2023 - June 2023*
-
-<p align="justify">
-
-This training is an integral and mandatory part of my Pharm.D where I ensure that patients receive optimal treatments (even in the current drug shortage environment) and proper advices. I also assist pharmacists in the final review of prescriptions, assessing their adequacy and safety. I am committed to working collaboratively with patients by involving them in their own care.
-
-</p>
-
-![The image depicts the advice corner of the community pharmacy in Rolle, where I received my training. The pharmacy is known for its excellent setting to provide the best advice to patients](docs/pharmacieplus-ile-pharmacie-rolle-service-sante-1667917458.jpg){width="70%"}
-
----
-
-<br>
-
-
-
-<h5>**Master's Thesis** - **University College London**</h5>
-
-**Prof. Shozeb Haider & Prof. Francesco L. Gervasio** <br> *Aug 2022 - Dec 2022*
-  
-<p align="justify">
-
-I studied the activation of human and murine LHCGR by an allosteric small molecule agonist using homology modelling and performing molecular dynamics simulation studies. I was able to highlight interesting drug-mediated activation mechanisms that may be useful for designing more potent drugs. Furthermore, the results suggest differences in human and mouse binding sites, implying that the use of mouse animal models is not optimal for predicting the structure-related effects of this drug.
-
-</p>
-
-![ORG43553 is a small molecule capable of activating LHCGR in vitro. This property is particularly interesting since the endogenous LHCGR receptor agonists are peptides. This ligand holds promise for the development of orally active drugs to replace the limited use of injectable CG and LH in the treatment of reproductive disorders and assisted reproductive technologies.](docs/gpcr_context.jpg){width="40%" height="40%"}
-
-<p align="justify">
-
-Additionally, I was involved in the development of pancreatic cancer vaccines using patient neoantigens. I created an automated program using Python and Unix Bash Script to build homology models of patient's neoantigen epitopes sequenced at The Johns Hopkins Hospital. The structural insights gained from these models were used to predict the immunogenicity of the epitopes, aiding rational vaccine development.
-
-</p>
-
-![The image displays two illustrations of the same model of a neoantigen-CMH complex. The mutant amino-acid, represented by the spheres in both illustrations, exhibits a high solvent-accessible surface area (SASA). It is plausible that such solvent exposure may facilitate the recognition of the neoantigen as "non-self" by the immune cell encountering this complex, thereby eliciting immunogenicity.](docs/MEPfig_generate.png){width="60%" height="60%"}
-
----
-
-<br>
-
-
-
-<h5>**Student Research Assistant** - **University of Geneva**</h5>
-
-**Prof. Stephane Guerrier** <br> *Aug 2022 - Currently*
-
-<p align="justify">
-
-I scripted Monte Carlo simulations in R to compare statistical methods, performed data analysis, and developed Shiny web application for visualizing the results. I also scripted custom bootstrap resampling script to estimate population parameters in training data sets.
-
-::: {layout-ncol=2}
-
-![The figure depicts simulated probabilities of declaring two  drugs as bioequivalent under different conditions, using the two one-sided t-test (TOST) procedure in red and an adjusted version of the TOST procedure in blue.](docs/power.png)
-
-![A Monte Carlo simulation was used to evaluate the performance of various bootstrap techniques in estimating confidence intervals for parameter estimates of a linear regression. The results are displayed in the graph, which presents the coverage rates for each method.](covid_bootstrap.png)
-:::
-
-
-</p>
-
----
-
-<br>
-
-
-
-<h5>**Research Internship** - **Melanoma Institute Australia**</h5>
-
-**Prof. Serigne Lo** <br> *July 2022 - Aug 2022*
-
-<p align="justify">
-
-Using the world's largest melanoma database, I analyzed a dataset of 6,000 patients followed in a 17-year longitudinal study aiming to evaluate the effectiveness of sentinel lymph node biopsy in melanoma patients. I wrote scripts in R using a range of statistical approaches, such as Cox Regression Model and Propensity Score Stratification. From the analysis I generated tables and graphs to present the findings.
-
-![Although sentinel lymph node biopsy (SLNB) can provide useful information about cancer progression, it also carries surgical risks. In my analysis, I created and interpreted several tables and graphs to assess the effectiveness of SLNB and determine appropriate patient selection criteria. This graph shows the melanoma-specific survival rates of patients who underwent SLNB (blue) versus those who did not (red).](docs/MSS_by_SLNB2.jpeg){width="85%" height="85%"}
-
-</p>
-
----
-
-<br>
-
-
-
-<h5>**Open Synthesis Network** - **DNDi & University of Geneva**</h5>
-
-**Dr Sébastien Tardy & Prof. Leonardo Scapozza** <br> *Feb 2021 - Apr 2021*
-
-<p align="justify">
-
-Open Synthesis Network is a project in which students are involved in the initial stages of research into neglected diseases. All students are tasked with synthesising a molecule that has never been synthesised before. These molecules are analogues of a previously identified molecule active against Chagas disease. The general objective of the project is to test the activity, toxicity and pharmacokinetic parameters of all these analogues in order to find a candidate and propose a SAR for the target. I successfully synthesised and purified my assigned analogue, using pharmaceutical chemistry process and analytical techniques such as TLC, H-NMR, C-NMR, HPLC-MS and FTIR results.
-
-</p>
-
-![This illustration offers an overview of the four essential steps that I employed in the synthesis of my assigned analog. The Hit molecule is displayed in the upper left corner, and it exhibited a micromolar level of activity against T.cruzi.](docs/osn.jpg){width="90%" height="90%"}
-
----
-
-<br>
-
-*July 2018 - Aug 2018*
-
-<h5>**Summer Trainee** - **Firmenich**</h5>
-
-<p align="justify">
-
-I prepared fragrance blends from laboratory compounds and in-house technologies for home care, body care and fine perfumery. Additionally, I was responsible for sample management tasks, including labeling, preparation for shipment, transportation to laboratories, inventory and disposal.
-
-</p>
-
-![Before starting university, I gained invaluable industry experience at Firmenich. This company specialises in creating fragrances, flavours, and ingredients that delight the senses. Additionally, they conduct research on human perception of molecules, and develop new technologies and manufacturing processes.](docs/3077-firmenich-b41_dmk__los_b4122.jpg){width="70%"}
 
 ------------------------------------------------------------------------
 
@@ -155,7 +11,21 @@ I prepared fragrance blends from laboratory compounds and in-house technologies 
 
 # Outreach activities
 
-<img src="docs/volunteer_speaker.jpg" width="70%" height="70%"/>
+
+<br><br>
+
+</p>
+
+*May 2024* \| **IPSF Delegate to the 77th World Health Assembly of the WHO**
+
+<p align="justify">
+
+- Represented IPSF, an organisation in official relations with WHO, advocating for over 500,000 pharmacy students and recent graduates at the World Health Assembly in Geneva.
+- Delivered a statement, during the assembly, on the Immunization Agenda 2030.
+- Engaged with NGOs, policymakers, and Member State delegates to foster collaborations tackling global health challenges such as, including Universal Health Coverage (UHC), antimicrobial resistance (AMR), non-communicable diseases (NCDs), pandemic preparedness, tuberculosis elimination and maternal, newborn and child health (MNCH).
+
+<img src="whaspeach-frameat0m13s.jpg" width="70%" height="70%"/>
+
 
 </p>
 
@@ -172,6 +42,8 @@ Appointed Vice-Chairperson in a team of 20 motivated student to organize a educa
 <p align="justify">
 
 I participated in the national weekend of the BPhD (German Association of Pharmacy Students), where I spoke about the possibilities of student engagement at European and global level.
+
+<img src="docs/volunteer_speaker.jpg" width="70%" height="70%"/>
 
 *Mai 2022* \| **Delegate at the Geneva Health Forum 2022**
 

@@ -1,8 +1,8 @@
 ---
 title: Raphael Feser
 subtitle: "PharmD, MSc in Pharmacy"
-description: "<p align='left'>Pharmacist by training with a passion for research, I am currently pursuing a PhD in Biomolecular and Pharmaceutical Modelling. I'm using computers to describe complex biological mechanisms and, ultimately, to **design new medicines**. 💊 <br><br> With diverse experiences across institutions in Geneva (UNIGE), Sydney (USYD & MIA), and London (UCL), I have developed a range of skills in **Medicinal Chemistry**, **Cheminformatics**, **Statistical Modelling**, and **Machine Learning**. 💻🔬<br>"
-image: moi.png
+description: "<p align='left'>Pharmacist by training with a strong interest for research, I am currently pursuing a PhD in Biomolecular and Pharmaceutical Modelling. I'm using computers to describe and predict complex biological mechanisms, with the ultimate aim to help **design new medicines**. 💊 <br><br> With diverse experiences across institutions in Geneva (UNIGE), Sydney (USYD & MIA), and London (UCL), I have developed a range of skills in **Medicinal Chemistry**, **Cheminformatics**, **Statistical Modelling**, and **Machine Learning**. 💻🔬<br>"
+image: moi2.jpg
 format:
   html:
     toc: false
@@ -32,15 +32,15 @@ about:
 
 <p>
 
--   **Ph.D in Biomolecular Modelling** [\[more\]](https://ispso.unige.ch/biomolecular-pharmaceutical-modelling/index.php){target="_blank"} <br> University of Geneva \| Ongoing
+-   **Ph.D in Biomolecular Modelling**  <br> University of Geneva \| Ongoing
 
 -   **Federal Diploma in Pharmacy** (Pharm.D) <br> Swiss Federal Departement of Home Affairs (FDHA) \| Oct 2023
 
     </p>
 
--   **M.Sc in Pharmacy** [\[more\]](https://ispso.unige.ch/ispso/contents/etudes/master.php?l=EN){target="_blank"} <br> University of Geneva \| July 2023
+-   **M.Sc in Pharmacy**  <br> University of Geneva \| July 2023
 
--   **B.Sc in Pharmaceutical Sciences** [\[more\]](https://ispso.unige.ch/ispso/contents/etudes/bachelor.php){target="_blank"} <br> University of Geneva \| July 2021
+-   **B.Sc in Pharmaceutical Sciences** <br> University of Geneva \| July 2021
 
 -   **Swiss Matura (High School Diploma)** <br> Gymnase de Nyon \| July 2018 <br><br>
 
@@ -54,9 +54,9 @@ about:
 
 -   **Teaching & Research Assistant** - University of Geneva 
 
--   **Trainee Pharmacist** - Pharmacie de L'Ile [\[more\]](./about.html#trainee-pharmacist-pharmacie-de-l’ile){target="_blank" style="caret-color: white; font-size: 11pt;"}
+-   **Trainee Pharmacist** - Pharmacie de L'Ile
 
--   **Laboratory Assistant** - Firmenich SA [\[more\]](./about.html#laboratory-assistant-firmenich-sa){target="_blank" style="caret-color: white; font-size: 11pt;"} <br><br>
+-   **Laboratory Assistant** - Firmenich SA <br><br>
 
 </details>
 
@@ -68,13 +68,13 @@ about:
 
 <!-- -   **Doctoral student in Biomolecular and Pharmaceutical Modelling** <br> University College London <br> Prof. Shozeb Haider & Prof. Francesco L. Gervasio -->
 
--   **Master's Thesis in Computational Biophysics** [\[more\]](./about.html#master’s-thesis-university-college-london){target="_blank" style="caret-color: white; font-size: 11pt;"} <br> University College London <br> Prof. Shozeb Haider & Prof. Francesco L. Gervasio
+-   **Master's Thesis in Computational Biophysics** <br> University College London <br> Prof. Shozeb Haider & Prof. Francesco L. Gervasio
 
--   **Research Assistant in Statistics** [\[more\]](./about.html#student-research-assistant-university-of-geneva){target="_blank" style="caret-color: white; font-size: 11pt;"} <br> University of Geneva <br> Prof. Stéphane Guerrier
+-   **Research Assistant in Statistics** <br> University of Geneva <br> Prof. Stéphane Guerrier
 
--   **Research Internship in Biostatistics** [\[more\]](./about.html#research-internship-melanoma-institute-australia){target="_blank" style="caret-color: white; font-size: 11pt;"} <br> Melanoma Institute Australia <br> Prof. Serigne Lo
+-   **Research Internship in Biostatistics**  <br> Melanoma Institute Australia <br> Prof. Serigne Lo
 
--   **Open Synthesis Network** [\[more\]](./about.html#open-synthesis-network-dndi-university-of-geneva){target="_blank" style="caret-color: white; font-size: 11pt;"} <br> DNDi & University of Geneva <br> Dr Sébastien Tardy & Prof. Leonardo Scapozza <br><br>
+-   **Open Synthesis Network** <br> DNDi & University of Geneva <br> Dr Sébastien Tardy & Prof. Leonardo Scapozza <br><br>
 
 </details>
 

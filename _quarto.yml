@@ -11,7 +11,7 @@ website:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: Extended CV
+        text: Outreach
 
 format:
   html:
