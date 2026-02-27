@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://raphaelfeser.github.io/index.html</loc>
-    <lastmod>2025-04-20T08:14:41.291Z</lastmod>
-  </url>
-  <url>
     <loc>https://raphaelfeser.github.io/about.html</loc>
-    <lastmod>2025-04-20T09:09:26.570Z</lastmod>
+    <lastmod>2026-02-27T22:39:24.696Z</lastmod>
   </url>
   <url>
-    <loc>https://raphaelfeser.github.io/test2.html</loc>
-    <lastmod>2024-01-03T13:20:00.111Z</lastmod>
+    <loc>https://raphaelfeser.github.io/index.html</loc>
+    <lastmod>2026-02-27T22:42:01.775Z</lastmod>
+  </url>
+  <url>
+    <loc>https://raphaelfeser.github.io/science.html</loc>
+    <lastmod>2026-02-27T22:41:31.761Z</lastmod>
+  </url>
+  <url>
+    <loc>https://raphaelfeser.github.io/survival.html</loc>
+    <lastmod>2026-02-27T22:41:10.921Z</lastmod>
   </url>
 </urlset>

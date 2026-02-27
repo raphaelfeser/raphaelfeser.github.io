@@ -1,1 +1,985 @@
 /* css styles */
+
+/* ── CSS Custom Properties ────────────────────────────────────────────────── */
+:root {
+  --color-bg:        #f5f5f5;
+  --color-surface:   #ffffff;
+  --color-text:      #2d2d2d;
+  --color-text-muted:#6b6b6b;
+  --color-accent:    #e08b2a;
+  --color-accent-dk: #c47820;
+  --color-border:    #e0e0e0;
+  --color-dark:      #2d2d2d;
+
+  --font-heading: 'Space Grotesk', system-ui, sans-serif;
+  --font-body:    system-ui, sans-serif;
+
+  --radius-card: 10px;
+  --shadow-card: 0 2px 12px rgba(0,0,0,0.07);
+  --transition:  0.22s ease;
+}
+
+/* ── Base overrides ───────────────────────────────────────────────────────── */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+/* Override Zephyr default blue navbar */
+.navbar {
+  background-color: var(--color-dark) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.navbar-brand,
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus {
+  color: var(--color-accent) !important;
+}
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* ── CV collapsible (home page) ───────────────────────────────────────────── */
+.cv-details {
+  margin: 0 0 1.5rem;
+  border: none;
+}
+.cv-summary {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  cursor: pointer;
+  padding: 0.5rem 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 0.25rem;
+  user-select: none;
+}
+.cv-summary::-webkit-details-marker { display: none; }
+.cv-summary::before {
+  content: "▸";
+  color: var(--color-accent);
+  font-size: 0.8rem;
+  transition: transform var(--transition);
+  display: inline-block;
+}
+.cv-details[open] > .cv-summary::before {
+  transform: rotate(90deg);
+}
+.cv-details[open] > .cv-summary {
+  border-bottom-color: transparent;
+}
+
+/* ── CV section (home page) ───────────────────────────────────────────────── */
+.cv-section {
+  margin: 0.5rem 0 1.5rem;
+}
+.cv-group {
+  margin-bottom: 1.25rem;
+}
+.cv-group-label {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin: 0 0 0.4rem;
+}
+.cv-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.cv-list li {
+  padding: 0.28rem 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.4rem;
+}
+.cv-list li:last-child { border-bottom: none; }
+.cv-date {
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.cv-detail {
+  width: 100%;
+  color: var(--color-text-muted);
+  font-size: 0.82rem;
+  padding-top: 0.1rem;
+}
+.cv-outreach {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+.cv-outreach a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+.cv-outreach a:hover { text-decoration: underline; }
+
+/* ── Research context note (science + survival pages) ───────────────────── */
+.research-context-note {
+  display: block;
+  margin-top: 0.75rem;
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+.research-context-note::before {
+  content: "";
+}
+
+/* ── Shared button ────────────────────────────────────────────────────────── */
+.btn-amber {
+  display: inline-block;
+  background-color: var(--color-accent);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.3rem;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color var(--transition);
+}
+.btn-amber:hover {
+  background-color: var(--color-accent-dk);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ── Teaser card (home page, below Molstar viewer) ────────────────────────── */
+.teaser-card {
+  border-left: 3px solid var(--color-accent);
+  background: var(--color-surface);
+  border-radius: 0 var(--radius-card) var(--radius-card) 0;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow-card);
+  font-size: 0.92rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+}
+.teaser-card p {
+  margin: 0 0 0.6rem 0;
+}
+.teaser-card a:not(.btn-amber) {
+  color: var(--color-accent);
+  font-weight: 600;
+  text-decoration: none;
+  font-family: var(--font-heading);
+  font-size: 0.88rem;
+}
+.teaser-card a:not(.btn-amber):hover {
+  text-decoration: underline;
+}
+
+
+.teaser-card .btn-amber { margin-top: 0.25rem; }
+/* ── Dual identity cards ──────────────────────────────────────────────────── */
+.dual-identity {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin: 2.5rem 0 1.5rem;
+}
+.identity-card {
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  padding: 1.5rem 1.4rem;
+  box-shadow: var(--shadow-card);
+  border-top: 3px solid var(--color-accent);
+}
+.identity-card h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+  margin-bottom: 0.6rem;
+}
+.identity-card p {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
+@media (max-width: 600px) {
+  .dual-identity { grid-template-columns: 1fr; }
+}
+
+/* ── Tools tag grid ───────────────────────────────────────────────────────── */
+.tools-section {
+  margin: 1.5rem 0 2.5rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow-card);
+}
+.tools-section h3 {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-muted);
+  margin-bottom: 0.9rem;
+}
+.tools-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+.tool-tag {
+  background: var(--color-surface);
+  border: 1.5px solid var(--color-border);
+  border-radius: 5px;
+  padding: 0.28rem 0.75rem;
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--color-text);
+  transition: border-color var(--transition), color var(--transition);
+  white-space: nowrap;
+}
+.tool-tag:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+/* ── Science page - viewer container ─────────────────────────────────────── */
+.science-viewer-wrap {
+  width: 100%;
+  height: 260px;
+  position: relative;
+  background: #1a1a2a;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+@media (min-width: 600px) {
+  .science-viewer-wrap { height: 360px; }
+}
+@media (min-width: 900px) {
+  .science-viewer-wrap { height: 420px; }
+}
+#science-viewer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.viewer-loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  background: #1a1a2a;
+  color: rgba(255,255,255,0.5);
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  z-index: 10;
+  transition: opacity 0.4s ease;
+}
+.viewer-loading.hidden { opacity: 0; pointer-events: none; }
+.viewer-spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255,255,255,0.15);
+  border-top-color: rgba(255,255,255,0.5);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Science page - step progress dots ───────────────────────────────────── */
+.step-progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0.75rem 0 1.25rem;
+}
+.step-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-border);
+  cursor: pointer;
+  transition: background var(--transition), transform var(--transition);
+  border: none;
+  padding: 0;
+}
+.step-dot.active {
+  background: var(--color-accent);
+  transform: scale(1.35);
+}
+
+/* ── Science page - chapter text panels ──────────────────────────────────── */
+.science-chapter {
+  display: none;
+  max-width: 680px;
+  margin: 0 auto;
+  animation: chapterFade 0.3s ease;
+}
+.science-chapter.active { display: block; }
+@keyframes chapterFade {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.chapter-label {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.4rem;
+}
+.chapter-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
+.chapter-body {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  line-height: 1.72;
+}
+.chapter-body p { margin-bottom: 0.85rem; }
+.chapter-body em { color: var(--color-text); font-style: italic; }
+.chapter-body strong { color: var(--color-text); font-weight: 600; }
+
+/* ── Science page - navigation bar ───────────────────────────────────────── */
+.science-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--color-border);
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-step-prev {
+  background: transparent;
+  border: 1.5px solid var(--color-border);
+  border-radius: 6px;
+  padding: 0.45rem 1rem;
+  font-family: var(--font-heading);
+  font-size: 0.88rem;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  transition: border-color var(--transition), color var(--transition);
+}
+.btn-step-prev:hover:not(:disabled) {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+.btn-step-prev:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+.step-counter {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+/* ── N-terminal sequence comparison table ────────────────────────────────── */
+.nterm-table-wrap {
+  margin: 1.25rem 0;
+  overflow: hidden;
+}
+.table-intro {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.6rem;
+}
+.nterm-table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.nterm-table {
+  border-collapse: collapse;
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  width: 100%;
+  min-width: 480px;
+}
+.nterm-table th,
+.nterm-table td {
+  padding: 0.45rem 0.6rem;
+  text-align: center;
+  border: 1px solid var(--color-border);
+  white-space: nowrap;
+}
+.nterm-table th {
+  font-weight: 700;
+  font-size: 0.78rem;
+  background: var(--color-bg);
+}
+.nterm-table th.same,
+.nterm-table td.same {
+  background: #f0f4fa;
+  color: #5a7fa8;
+}
+.nterm-table th.diff,
+.nterm-table td.diff {
+  background: #fff7ee;
+  color: var(--color-accent-dk);
+  font-weight: 600;
+}
+.nterm-table td.row-label,
+.nterm-table th.row-label {
+  text-align: left;
+  font-weight: 600;
+  background: var(--color-surface);
+  color: var(--color-text);
+  border-right: 2px solid var(--color-border);
+  min-width: 90px;
+}
+.antagonist-label { color: var(--color-accent-dk); }
+.agonist-label    { color: #3a7d44; }
+.table-caption {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  margin-top: 0.5rem;
+}
+.legend-same { color: #5a7fa8; font-size: 1rem; }
+.legend-diff { color: var(--color-accent); font-size: 1rem; }
+
+/* ── Viewer toggle buttons (chapter 3) ───────────────────────────────────── */
+.viewer-toggle {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0;
+  background: rgba(0,0,0,0.55);
+  border-radius: 6px;
+  overflow: hidden;
+  z-index: 20;
+}
+.toggle-btn {
+  background: transparent;
+  color: rgba(255,255,255,0.6);
+  border: none;
+  padding: 0.4rem 1rem;
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition);
+}
+.toggle-btn.active {
+  background: var(--color-accent);
+  color: #fff;
+}
+.toggle-btn:hover:not(.active) {
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+}
+
+/* ── Science page layout wrapper ─────────────────────────────────────────── */
+.science-page {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+.science-page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+.science-page-header h1 {
+  font-size: clamp(1.5rem, 4vw, 2.2rem);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.science-page-header p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.65;
+}
+
+/* ── Trajectory annotation label ─────────────────────────────────────────── */
+.traj-label {
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+  background: rgba(0,0,0,0.55);
+  color: rgba(255,255,255,0.85);
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+  z-index: 20;
+  pointer-events: none;
+}
+
+/* ── Model note (PDB provenance) ─────────────────────────────────────────── */
+.model-note {
+  position: absolute;
+  bottom: 10px;
+  left: 12px;
+  background: rgba(0,0,0,0.45);
+  color: rgba(255,255,255,0.62);
+  font-family: var(--font-heading);
+  font-size: 0.76rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+  z-index: 20;
+  pointer-events: none;
+}
+
+/* ── Trajectory controls (play/pause) ───────────────────────────────────── */
+.traj-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 12px;
+  display: flex;
+  gap: 0.4rem;
+  z-index: 20;
+}
+
+/* ── Generic viewer control button (play/pause, CVD toggle) ──────────────── */
+.viewer-ctrl-btn {
+  background: rgba(0,0,0,0.55);
+  color: rgba(255,255,255,0.85);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 6px;
+  padding: 0.35rem 0.75rem;
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  min-height: 36px;
+  min-width: 52px;
+  transition: background var(--transition), border-color var(--transition);
+  -webkit-tap-highlight-color: transparent;
+}
+.viewer-ctrl-btn:hover {
+  background: rgba(255,255,255,0.12);
+  border-color: rgba(255,255,255,0.32);
+  color: #fff;
+}
+.viewer-ctrl-btn.active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}
+
+/* ── CVD palette toggle - top-right corner ───────────────────────────────── */
+.cvd-btn {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  z-index: 20;
+}
+
+/* Mobile: larger tap targets for all viewer buttons */
+@media (max-width: 599px) {
+  .viewer-ctrl-btn { min-height: 44px; font-size: 0.82rem; }
+  .toggle-btn { min-height: 44px; padding: 0.5rem 0.9rem; }
+  .btn-amber, .btn-step-prev { min-height: 48px; font-size: 1rem; }
+}
+
+/* ── In-page camera export ───────────────────────────────────────────────── */
+.view-tools {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  z-index: 20;
+}
+.view-tool-btn {
+  background: rgba(0,0,0,0.55);
+  color: rgba(255,255,255,0.85);
+  border: 1px solid rgba(255,255,255,0.18);
+  padding: 0.35rem 0.6rem;
+  border-radius: 6px;
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
+}
+.view-tool-btn:hover {
+  background: rgba(255,255,255,0.10);
+  border-color: rgba(255,255,255,0.28);
+  color: #fff;
+}
+
+/* ── Enhanced sampling section (science page) ────────────────────────────── */
+.enh-section {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+  border-top: 1px solid var(--color-border);
+}
+.enh-section-label {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.35rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.enh-section-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--color-border);
+}
+.enh-section h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 0.65rem;
+  color: var(--color-text);
+}
+.enh-section p {
+  color: var(--color-text-muted);
+  font-size: 0.93rem;
+  line-height: 1.72;
+  margin-bottom: 0.8rem;
+  max-width: 640px;
+}
+.enh-section p strong { color: var(--color-text); }
+.enh-desktop-note {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-heading);
+  font-size: 0.74rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 0.25rem 0.7rem;
+  margin-bottom: 1rem;
+}
+/* Energy landscape canvas */
+canvas#enhCanvas { display: block; width: 100%; }
+/* Replica exchange canvas */
+canvas#remdCanvas { display: block; width: 100%; }
+/* Mode toggle buttons */
+.enh-mode-row {
+  display: flex;
+  gap: 0;
+  margin-bottom: 14px;
+  border: 1.5px solid var(--color-border);
+  border-radius: 6px;
+  overflow: hidden;
+  width: fit-content;
+}
+.enh-mode-btn {
+  background: transparent;
+  border: none;
+  padding: 0.4rem 1.1rem;
+  font-family: var(--font-heading);
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition);
+  -webkit-tap-highlight-color: transparent;
+}
+.enh-mode-btn.active {
+  background: var(--color-accent);
+  color: #fff;
+}
+.enh-mode-btn:hover:not(.active) {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+/* Enh slider + result */
+.enh-controls {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 18px;
+  align-items: start;
+  margin-top: 14px;
+}
+@media (max-width: 560px) { .enh-controls { grid-template-columns: 1fr; } }
+.enh-result {
+  margin-top: 12px;
+  padding: 12px 16px;
+  background: var(--color-bg);
+  border-radius: 6px;
+  font-size: 0.86rem;
+  color: var(--color-text-muted);
+  line-height: 1.55;
+  font-family: var(--font-heading);
+}
+.enh-dg-num {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  color: var(--color-accent);
+  line-height: 1;
+}
+.enh-dg-label {
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+  margin-bottom: 2px;
+}
+
+/* ── Shared research footer (science + survival pages) ───────────────────── */
+.research-footer {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+/* ── Outreach / Activities page ─────────────────────────────────────────────── */
+.outreach-list {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+.outreach-entry {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+.outreach-entry:last-child { border-bottom: none; }
+.outreach-date {
+  font-family: var(--font-heading);
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.25rem;
+}
+.outreach-title {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.4rem;
+}
+.outreach-body {
+  font-size: 0.92rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+}
+.outreach-body ul {
+  padding-left: 1.2rem;
+  margin: 0.4rem 0;
+}
+.outreach-body li {
+  margin-bottom: 0.3rem;
+}
+.outreach-img {
+  max-width: 100%;
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  margin: 1rem 0;
+}
+
+/* Mobile: img max-width */
+img { max-width: 100%; height: auto; }
+
+/* ── Desktop notice banner (research pages) ──────────────────────────────── */
+.desktop-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 8px 1.25rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  margin-bottom: 1.75rem;
+}
+
+/* ── Shared interactive components (science + survival pages) ─────────────── */
+
+/* Interactive zone card */
+.interactive-zone {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  margin: 1.25rem 0 1rem;
+  box-shadow: var(--shadow-card);
+}
+.iz-header {
+  padding: 14px 22px 12px;
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.iz-title {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+.iz-badge {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  background: #e8f5e9;
+  color: #2d6a4f;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+.iz-btn {
+  background: transparent;
+  border: 1.5px solid var(--color-border);
+  border-radius: 6px;
+  padding: 0.45rem 1rem;
+  font-family: var(--font-heading);
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
+  -webkit-tap-highlight-color: transparent;
+}
+.iz-btn:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+.iz-btn.active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}
+.iz-body { padding: 20px 22px; }
+@media (max-width: 480px) {
+  .iz-body   { padding: 14px 14px; }
+  .iz-header { padding: 12px 14px 10px; }
+}
+
+/* Mini-card two-column grid */
+.card-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+@media (max-width: 560px) { .card-row { grid-template-columns: 1fr; } }
+.mini-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  padding: 1.1rem 1.2rem;
+  box-shadow: var(--shadow-card);
+}
+.mini-card h4 {
+  font-family: var(--font-heading);
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0.5rem 0 0.4rem;
+}
+.mini-card p {
+  font-size: 0.86rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Tag pills */
+.tag-pill {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 2px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.tag-green { background: #e8f5e9; color: #2d6a4f; }
+.tag-blue  { background: #dce8f5; color: #1d4e89; }
+
+/* Range slider track and thumb */
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 4px;
+  background: var(--color-border);
+  border-radius: 2px;
+  outline: none;
+  margin-top: 7px;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.18);
+  transition: transform 0.1s;
+}
+input[type=range]::-webkit-slider-thumb:hover { transform: scale(1.2); }
+
+/* Range slider end labels */
+.range-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  margin-top: 3px;
+  font-family: var(--font-heading);
+}
+

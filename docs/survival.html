@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Raphael Feser -</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Raphael Feser -">
+<meta property="og:site-name" content="Raphael Feser">
+<meta name="twitter:title" content="Raphael Feser -">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Raphael Feser</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="./science.html" rel="" target="">
+ <span class="dropdown-text">CCR5 (viewer)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./survival.html" rel="" target="">
+ <span class="dropdown-text">SLNB (viewer)</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">Activities</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<meta name="description" content="Interactive explainer on survival analysis methods for sentinel lymph node biopsy outcomes. Kaplan-Meier curves, censoring, and adjusted comparisons.">
+
+<style>
+/* ── survival.qmd - page-specific styles ──────────────────────────────────── */
+.survival-page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 5rem;
+}
+
+/* Header */
+.survival-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid var(--color-border);
+}
+.survival-header .surv-eyebrow {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.6rem;
+}
+.survival-header h1 {
+  font-size: clamp(1.5rem, 4.5vw, 2.3rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.6rem;
+  color: var(--color-text);
+}
+.survival-header .surv-subtitle {
+  color: var(--color-text-muted);
+  font-size: 0.97rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Sections */
+.surv-section {
+  margin-bottom: 3.5rem;
+}
+.surv-section-label {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.35rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.surv-section-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--color-border);
+}
+.surv-section h2 {
+  font-size: 1.45rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+  color: var(--color-text);
+}
+.surv-section p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  line-height: 1.72;
+  margin-bottom: 0.85rem;
+}
+.surv-section p strong { color: var(--color-text); }
+
+/* Patient dots */
+.dot-legend {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.dot-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+}
+.dot-legend-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.patient-dots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 0 0 14px;
+}
+.patient-dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  cursor: default;
+  transition: transform 0.12s;
+  font-weight: 700;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.patient-dot:hover { transform: scale(1.25); }
+.patient-dot.event    { background: #fde8e0; border: 2px solid #b5451b; color: #b5451b; }
+.patient-dot.censored { background: #dce8f5; border: 2px solid #1d4e89; color: #1d4e89; }
+.patient-dot.ongoing  { background: #d8f3dc; border: 2px solid #2d6a4f; color: #2d6a4f; }
+.dot-annotation {
+  background: var(--color-bg);
+  border-left: 3px solid var(--color-accent);
+  padding: 10px 14px;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  min-height: 44px;
+}
+
+/* KM canvas */
+canvas { display: block; width: 100%; }
+
+/* Slider controls - 2-column on wider screens */
+.surv-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 18px;
+}
+@media (max-width: 560px) { .surv-controls { grid-template-columns: 1fr; } }
+.control-group label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--color-text-muted);
+  font-family: var(--font-heading);
+}
+.control-group .val {
+  font-family: var(--font-heading);
+  font-size: 0.88rem;
+  color: var(--color-text);
+  font-weight: 700;
+}
+/* KM legend */
+.km-legend {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.km-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+}
+.km-legend-line {
+  width: 24px;
+  height: 3px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* HR display */
+.hr-display {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 18px;
+  background: var(--color-bg);
+  border-radius: 8px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+.hr-number {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  line-height: 1;
+  min-width: 3.5rem;
+}
+.hr-meta {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 3px;
+}
+.hr-interpret {
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+  max-width: 360px;
+  line-height: 1.5;
+}
+
+/* Tooltip */
+.surv-tooltip {
+  position: fixed;
+  background: var(--color-text);
+  color: #fff;
+  font-size: 0.78rem;
+  padding: 6px 10px;
+  border-radius: 6px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.12s;
+  z-index: 200;
+  max-width: 220px;
+  line-height: 1.4;
+  font-family: var(--font-body);
+}
+
+/* Mobile tweaks */
+@media (max-width: 480px) {
+  .survival-page { padding: 1.5rem 1rem 3.5rem; }
+  .patient-dot { width: 32px; height: 32px; font-size: 12px; }
+  .surv-section { margin-bottom: 2.5rem; }
+  .hr-display { padding: 10px 12px; gap: 12px; }
+  .hr-number { font-size: 1.7rem; }
+  .hr-interpret { font-size: 0.83rem; max-width: 100%; }
+}
+</style>
+
+<div class="desktop-banner">
+  ⓘ&nbsp; Best viewed on a desktop. This page contains interactive charts and animations.
+</div>
+
+<div class="surv-tooltip" id="survTooltip"></div>
+
+<div class="survival-page">
+
+  <!-- ── Header ──────────────────────────────────────────────────────────── -->
+  <div class="survival-header">
+    <p class="surv-eyebrow">SLNB · Melanoma outcomes research</p>
+    <h1>SLNB: survival analysis for melanoma outcomes</h1>
+    <p class="surv-subtitle">
+      Sentinel lymph node biopsy (SLNB) is an invasive surgical procedure used for staging in melanoma.
+      Because it carries risks and costs, we study its association with outcomes using large melanoma datasets. This page is an illustrative walkthrough of the
+      time-to-event methods used for such analyses. The data shown here are simulated for demonstration purposes. Results from real-world cohorts are to be reported separately in peer-reviewed publications.
+    </p>
+  </div>
+
+  <!-- ── Section 1: The challenge ────────────────────────────────────────── -->
+  <div class="surv-section">
+    <p class="surv-section-label">01 The challenge</p>
+    <h2 class="anchored">Not all patients finish a study at the same time</h2>
+    <p>
+      In time-to-event studies, some patients experience the event of interest while others are still
+      event-free when follow-up ends. This incomplete information is called
+      censoring, and it makes standard comparisons unreliable.
+    </p>
+    <p>
+      Censored patients still carry information: we know they were event-free up to their last contact.
+      Survival analysis is built to use that partial information correctly.
+    </p>
+    <p>
+      Simple summaries like “average time to event” are not appropriate here because they discard partial follow-up
+      and can give biased estimates of event-free probability.
+    </p>
+    <p>
+      For readability, the panel below shows 40 illustrative patients; the real cohorts I work with include several thousand patients.
+    </p>
+
+    <div class="interactive-zone">
+      <div class="iz-header">
+        <div class="iz-title">Illustrative cohort (40 example patients)</div>
+        <div class="iz-badge">● interactive</div>
+      </div>
+      <div class="iz-body">
+        <div class="dot-legend">
+          <div class="dot-legend-item">
+            <div class="dot-legend-swatch" style="background:#fde8e0;border:2px solid #b5451b;"></div>
+            <span>Event (recurrence or death)</span>
+          </div>
+          <div class="dot-legend-item">
+            <div class="dot-legend-swatch" style="background:#dce8f5;border:2px solid #1d4e89;"></div>
+            <span>Censored (study ended / lost to follow-up)</span>
+          </div>
+          <div class="dot-legend-item">
+            <div class="dot-legend-swatch" style="background:#d8f3dc;border:2px solid #2d6a4f;"></div>
+            <span>Still under surveillance</span>
+          </div>
+        </div>
+        <div class="patient-dots" id="patientDots"></div>
+        <div class="dot-annotation" id="dotAnnotation">Tap or hover over a patient to see follow-up history.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Section 2: The survival curve ───────────────────────────────────── -->
+  <div class="surv-section">
+    <p class="surv-section-label">02 The survival curve</p>
+    <h2 class="anchored">Estimating event-free probability over follow-up</h2>
+    <p>
+      The Kaplan-Meier curve tracks the probability of remaining event-free as time passes.
+      Each step down marks an observed event. Censoring is shown as tick marks and does not make the curve drop.
+      Flat stretches indicate intervals with no observed events.
+    </p>
+    <p>
+      When comparing two groups (here: SLNB vs no SLNB), the gap between curves suggests a difference
+      in event rates. The hazard ratio summarises the relative event rate between groups over time: below 1 corresponds to
+      lower hazard in the SLNB group; above 1 corresponds to higher hazard (worse than the comparator
+      in this illustrative example).
+    </p>
+
+    <div class="interactive-zone">
+      <div class="iz-header">
+        <div class="iz-title">Kaplan-Meier survival curves by SLNB status</div>
+        <div class="iz-badge">● interactive</div>
+      </div>
+      <div class="iz-body">
+        <canvas id="kmCanvas" height="350" role="img" aria-label="Kaplan-Meier survival curves comparing SLNB and no-SLNB groups"></canvas>
+        <div class="km-legend">
+          <div class="km-legend-item"><div class="km-legend-line" style="background:#2d6a4f;"></div>SLNB group</div>
+          <div class="km-legend-item"><div class="km-legend-line" style="background:#b5451b;"></div>No SLNB group</div>
+          <div class="km-legend-item"><div class="km-legend-line" style="background:#ccc;border:1px dashed #999;height:1px;margin-top:1px;"></div>Censoring tick</div>
+        </div>
+
+        <div class="surv-controls">
+          <div class="control-group">
+            <label>Follow-up period <span class="val" id="timeVal">36 months</span></label>
+            <input type="range" id="timeSlider" min="12" max="60" step="6" value="36" aria-label="Follow-up period in months">
+            <div class="range-labels"><span>12 mo</span><span>60 mo</span></div>
+          </div>
+          <div class="control-group">
+            <label>Illustrative SLNB effect <span class="val" id="efficacyVal">HR 0.71</span></label>
+            <input type="range" id="efficacySlider" min="0.40" max="1.60" step="0.01" value="0.71" aria-label="Illustrative SLNB effect hazard ratio">
+            <div class="range-labels"><span>Greater benefit</span><span>Greater harm</span></div>
+          </div>
+        </div>
+
+        <div class="hr-display">
+          <div>
+            <div class="hr-meta">Hazard ratio (illustrative)</div>
+            <div class="hr-number" id="hrNumber">0.71</div>
+          </div>
+          <div class="hr-interpret" id="hrInterpret">
+            Illustrative: the SLNB group has approximately 29% lower event hazard compared to the no SLNB group.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Section 3: Adjusted comparisons ─────────────────────────────────── -->
+  <div class="surv-section">
+    <p class="surv-section-label">03 Adjusted comparisons</p>
+    <h2 class="anchored">Accounting for differences between groups</h2>
+    <p>
+      In real-world cohorts, patients who undergo SLNB can differ from those who do not (for example in age, sex,
+      and tumour characteristics). To reduce bias from measured differences, we use propensity score methods
+      (e.g., weighting, matching, or stratifying patients by their estimated propensity to receive SLNB).
+    </p>
+  </div>
+
+</div><!-- /survival-page -->
+
+<script>
+// ── Tooltip ─────────────────────────────────────────────────────────────────
+var survTip = document.getElementById('survTooltip');
+function showTip(e, text) {
+  survTip.textContent = text;
+  survTip.style.opacity = 1;
+  survTip.style.left = (e.clientX + 14) + 'px';
+  survTip.style.top  = (e.clientY - 10) + 'px';
+}
+function hideTip() { survTip.style.opacity = 0; }
+
+// ── Censoring dots ───────────────────────────────────────────────────────────
+(function() {
+  var container  = document.getElementById('patientDots');
+  var annotation = document.getElementById('dotAnnotation');
+  var icons = { event: '●', censored: '+', ongoing: '✓' };
+
+  var months   = [4,6,7,8,9,10,11,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,44,48,52,56,60,14,22,10];
+  var statuses = ['event','event','event','event','event','event','event','event','event','censored','censored','censored','censored','censored','censored','censored','censored','ongoing','ongoing','ongoing','ongoing','ongoing','ongoing','ongoing','ongoing','ongoing','ongoing','ongoing','ongoing','ongoing'];
+
+  var patients = [];
+  for (var i = 0; i < 40; i++) {
+    patients.push({ id: i + 1, months: months[i % months.length], status: statuses[i % statuses.length] });
+  }
+  patients.sort(function(a, b) { return (a.id * 7 + a.months) % 13 - (b.id * 5 + b.months) % 11; });
+
+  patients.forEach(function(p) {
+    var d = document.createElement('div');
+    d.className = 'patient-dot ' + p.status;
+    d.textContent = icons[p.status];
+    d.setAttribute('role', 'button');
+    d.setAttribute('tabindex', '0');
+
+    var labels = { event: 'Event at', censored: 'Censored at', ongoing: 'Under surveillance at' };
+    var detail = {
+      event: 'Event recorded (e.g., recurrence or death).',
+      censored: 'No event observed up to last contact (study ended / lost to follow-up).',
+      ongoing: 'No event observed up to last contact.'
+    };
+    var tipText = 'Patient #' + p.id + ': ' + labels[p.status] + ' ' + p.months + ' months. ' + detail[p.status];
+    d.setAttribute('aria-label', tipText);
+
+    function setAnnotation(e) {
+      annotation.textContent = tipText;
+      annotation.style.borderLeftColor = p.status === 'event' ? '#b5451b' : p.status === 'censored' ? '#1d4e89' : '#2d6a4f';
+      if (e && e.type === 'mouseenter') showTip(e, tipText);
+    }
+
+    d.addEventListener('mouseenter', function(e) {
+      setAnnotation(e);
+    });
+    d.addEventListener('mousemove', function(e) { showTip(e, tipText); });
+    d.addEventListener('mouseleave', function() {
+      hideTip();
+      annotation.textContent = 'Tap or hover over a patient to see follow-up history.';
+      annotation.style.borderLeftColor = '';
+    });
+
+    d.addEventListener('click', function() {
+      hideTip();
+      setAnnotation(null);
+    });
+    d.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        hideTip();
+        setAnnotation(null);
+      }
+    });
+    container.appendChild(d);
+  });
+})();
+
+// ── KM Canvas ────────────────────────────────────────────────────────────────
+var kmCanvas = document.getElementById('kmCanvas');
+var kmCtx    = kmCanvas.getContext('2d');
+
+// Separate the random drop PATTERN from the drop MAGNITUDE (lambda).
+// Changing lambda (efficacy) only scales drop sizes, not which steps have
+// drops - so the curve shape stays consistent as the slider moves.
+function genDropPattern(nSteps, seed) {
+  var rng = seed;
+  function rand() { rng = (rng * 1664525 + 1013904223) >>> 0; return (rng >>> 16) / 65536; }
+  var drops = [];
+  for (var i = 0; i < nSteps; i++) {
+    drops.push(rand() < 0.36 ? (0.5 + rand()) : 0);
+  }
+  return drops;
+}
+
+function applyDropPattern(drops, lambda) {
+  var s = 1.0;
+  var pts = [{ t: 0, s: 1 }];
+  for (var i = 0; i < drops.length; i++) {
+    if (drops[i] > 0) s -= lambda * drops[i];
+    s = Math.max(0, Math.min(1, s));
+    pts.push({ t: (i + 1) / drops.length, s: s });
+  }
+  return pts;
+}
+
+var DROPS_NOSNB = genDropPattern(90, 92653);
+var DROPS_SNB   = genDropPattern(90, 31415);
+var BASE_LAMBDA = 0.044; // baseline hazard for no SLNB group
+
+function drawKM() {
+  var horizon  = parseInt(document.getElementById('timeSlider').value);
+  var efficacy = parseFloat(document.getElementById('efficacySlider').value);
+
+  document.getElementById('timeVal').textContent    = horizon + ' months';
+  document.getElementById('efficacyVal').textContent = 'HR ' + efficacy.toFixed(2);
+
+  var ptsNosnb = applyDropPattern(DROPS_NOSNB, BASE_LAMBDA);
+  var ptsSNB   = applyDropPattern(DROPS_SNB,   BASE_LAMBDA * efficacy);
+
+  // horizFrac: fraction of the max 60-month range currently displayed
+  var horizFrac = horizon / 60;
+
+  var w   = kmCanvas.offsetWidth;
+  var h   = 350;
+  var dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+  kmCanvas.width  = w * dpr;
+  kmCanvas.height = h * dpr;
+  kmCtx.scale(dpr, dpr);
+  kmCtx.clearRect(0, 0, w, h);
+
+  var pad = { top: 20, right: 22, bottom: 90, left: 52 };
+  var cw = w - pad.left - pad.right;
+  var ch = h - pad.top  - pad.bottom;
+
+  // Map t (0..horizFrac) to full canvas width so x-axis always fills the panel
+  function tToX(t) { return pad.left + (t / horizFrac) * cw; }
+  function sToY(s) { return pad.top  + (1 - s) * ch; }
+
+  // Grid
+  for (var i = 0; i <= 4; i++) {
+    var gy = pad.top + ch * i / 4;
+    kmCtx.strokeStyle = '#ede9e3'; kmCtx.lineWidth = 1;
+    kmCtx.beginPath(); kmCtx.moveTo(pad.left, gy); kmCtx.lineTo(pad.left + cw, gy); kmCtx.stroke();
+    kmCtx.fillStyle = '#a0998f';
+    kmCtx.font = '10px "Space Grotesk", system-ui';
+    kmCtx.fillText((1 - i / 4).toFixed(2), pad.left - 38, gy + 4);
+  }
+  for (var j = 0; j <= 6; j++) {
+    var gx = pad.left + cw * j / 6;
+    kmCtx.strokeStyle = '#ede9e3'; kmCtx.lineWidth = 1;
+    kmCtx.beginPath(); kmCtx.moveTo(gx, pad.top); kmCtx.lineTo(gx, pad.top + ch); kmCtx.stroke();
+    kmCtx.fillStyle = '#a0998f';
+    kmCtx.font = '10px "Space Grotesk", system-ui';
+    kmCtx.fillText(Math.round(horizon * j / 6) + ' m', gx - 9, h - 12);
+  }
+
+  // Axes
+  kmCtx.strokeStyle = '#c8c2bb'; kmCtx.lineWidth = 1.5;
+  kmCtx.beginPath();
+  kmCtx.moveTo(pad.left, pad.top);
+  kmCtx.lineTo(pad.left, pad.top + ch);
+  kmCtx.lineTo(pad.left + cw, pad.top + ch);
+  kmCtx.stroke();
+
+  // Axis labels
+  kmCtx.save();
+  kmCtx.fillStyle = '#888';
+  kmCtx.font = '11px "Space Grotesk", system-ui';
+  kmCtx.translate(13, pad.top + ch / 2);
+  kmCtx.rotate(-Math.PI / 2);
+  kmCtx.fillText('Prob. event-free', -46, 0);
+  kmCtx.restore();
+  kmCtx.fillStyle = '#888';
+  kmCtx.font = '11px "Space Grotesk", system-ui';
+  kmCtx.fillText('Time', pad.left + cw / 2 - 12, h - 2);
+
+  function drawCurve(pts, color, censorColor) {
+    kmCtx.beginPath();
+    kmCtx.strokeStyle = color;
+    kmCtx.lineWidth = 2.5;
+    var started = false;
+    for (var k = 0; k < pts.length; k++) {
+      if (pts[k].t > horizFrac) break;
+      var x = tToX(pts[k].t);
+      var y = sToY(pts[k].s);
+      if (!started) { kmCtx.moveTo(x, y); started = true; }
+      else {
+        kmCtx.lineTo(x, sToY(pts[k - 1].s)); // horizontal
+        kmCtx.lineTo(x, y);                   // vertical drop
+      }
+    }
+    kmCtx.stroke();
+    // Censor ticks every ~9 steps
+    for (var m = 2; m < pts.length; m += 9) {
+      if (pts[m].t > horizFrac) break;
+      var cx2 = tToX(pts[m].t);
+      var cy2 = sToY(pts[m].s);
+      kmCtx.strokeStyle = censorColor; kmCtx.lineWidth = 1.5;
+      kmCtx.beginPath(); kmCtx.moveTo(cx2, cy2 - 5); kmCtx.lineTo(cx2, cy2 + 5); kmCtx.stroke();
+    }
+  }
+
+  // Shade between the two curves
+  var nosnbEnd = 0;
+  for (var bi = 0; bi < ptsNosnb.length && ptsNosnb[bi].t <= horizFrac; bi++) nosnbEnd = bi;
+
+  kmCtx.beginPath();
+  for (var a = 0; a < ptsSNB.length && ptsSNB[a].t <= horizFrac; a++) {
+    var ax = tToX(ptsSNB[a].t), ay = sToY(ptsSNB[a].s);
+    if (a === 0) kmCtx.moveTo(ax, ay); else kmCtx.lineTo(ax, ay);
+  }
+  for (var b = nosnbEnd; b >= 0; b--) {
+    kmCtx.lineTo(tToX(ptsNosnb[b].t), sToY(ptsNosnb[b].s));
+  }
+  kmCtx.closePath();
+  kmCtx.fillStyle = 'rgba(45,106,79,0.07)';
+  kmCtx.fill();
+
+  drawCurve(ptsSNB,   '#2d6a4f', '#74b899');
+  drawCurve(ptsNosnb, '#b5451b', '#d9897a');
+
+  // Number-at-risk table below x-axis
+  var narY = pad.top + ch + 30;
+  var N_INITIAL = 120; // illustrative cohort size per group
+  kmCtx.font = '9px "Space Grotesk", system-ui';
+
+  // Label column
+  kmCtx.fillStyle = '#888';
+  kmCtx.textAlign = 'right';
+  kmCtx.fillText('No. at risk', pad.left - 6, narY - 2);
+
+  kmCtx.fillStyle = '#2d6a4f';
+  kmCtx.fillText('SLNB', pad.left - 6, narY + 13);
+  kmCtx.fillStyle = '#b5451b';
+  kmCtx.fillText('No SLNB', pad.left - 6, narY + 26);
+
+  // Compute at-risk counts at grid ticks
+  for (var nt = 0; nt <= 6; nt++) {
+    var tFrac = (nt / 6) * horizFrac;
+    var gx2 = pad.left + cw * nt / 6;
+
+    // Find survival at this time fraction
+    var sSNB = 1, sNoSNB = 1;
+    for (var si = 0; si < ptsSNB.length; si++) {
+      if (ptsSNB[si].t <= tFrac) sSNB = ptsSNB[si].s; else break;
+    }
+    for (var ni = 0; ni < ptsNosnb.length; ni++) {
+      if (ptsNosnb[ni].t <= tFrac) sNoSNB = ptsNosnb[ni].s; else break;
+    }
+
+    kmCtx.textAlign = 'center';
+    kmCtx.fillStyle = '#2d6a4f';
+    kmCtx.fillText(Math.round(N_INITIAL * sSNB), gx2, narY + 13);
+    kmCtx.fillStyle = '#b5451b';
+    kmCtx.fillText(Math.round(N_INITIAL * sNoSNB), gx2, narY + 26);
+  }
+
+  // HR display - handles both benefit (HR < 1) and harm (HR > 1)
+  var hrEl  = document.getElementById('hrNumber');
+  var intEl = document.getElementById('hrInterpret');
+  hrEl.textContent = efficacy.toFixed(2);
+
+  if (efficacy > 1.05) {
+    var increase = Math.round((efficacy - 1) * 100);
+    hrEl.style.color = '#b5451b';
+    intEl.textContent = 'Illustrative: the SLNB group has ' + increase + '% higher event hazard than the no SLNB group (worse than the comparator in this example).';
+  } else if (efficacy >= 0.97) {
+    hrEl.style.color = '#888';
+    intEl.textContent = 'Illustrative: the two groups show nearly identical event rates. An HR near 1 means no detectable difference between groups.';
+  } else {
+    var reduction = Math.round((1 - efficacy) * 100);
+    hrEl.style.color = 'var(--color-accent)';
+    if (efficacy < 0.70) {
+      intEl.textContent = 'Illustrative: the SLNB group has ' + reduction + '% lower event hazard. The curves are widely separated in this example.';
+    } else {
+      intEl.textContent = 'Illustrative: the SLNB group has ' + reduction + '% lower event hazard compared to the no SLNB group.';
+    }
+  }
+
+}
+
+document.getElementById('timeSlider').addEventListener('input', drawKM);
+document.getElementById('efficacySlider').addEventListener('input', drawKM);
+
+window.addEventListener('load', function() { drawKM(); });
+window.addEventListener('resize', function() { drawKM(); });
+</script>
+
+
+
+</main> <!-- /main -->
+<footer class="research-footer">Interactive content on this site illustrates methods used in my ongoing research. Unless explicitly cited as public reference data (e.g., PDB IDs), numbers, curves, and simulated examples are illustrative and do not represent results from any specific study. Results will be reported in future publications.</footer>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

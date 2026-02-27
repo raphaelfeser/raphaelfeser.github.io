@@ -1,7 +1,7 @@
 ---
 title: Raphael Feser
-subtitle: "PharmD, MSc in Pharmacy"
-description: "<p align='left'>Pharmacist by training with a strong interest for research, I am currently pursuing a PhD in Biomolecular and Pharmaceutical Modelling. I'm using computers to describe and predict complex biological mechanisms, with the ultimate aim to help **design new medicines**. 💊 <br><br> With diverse experiences across institutions in Geneva (UNIGE), Sydney (USYD & MIA), and London (UCL), I have developed a range of skills in **Medicinal Chemistry**, **Cheminformatics**, **Statistical Modelling**, and **Machine Learning**. 💻🔬<br>"
+subtitle: "PharmD | PhD candidate, University of Geneva"
+description: "<p align='left'>Pharmacist and PhD candidate in biomolecular modelling at the University of Geneva. I use molecular simulations and data-driven methods to study protein conformational changes relevant to drug design.<br><br> Experience across Geneva (UNIGE), Sydney (USYD and MIA), and London (UCL).</p>"
 image: moi2.jpg
 format:
   html:
@@ -19,79 +19,143 @@ about:
       href: mailto:raphael.feser@unige.ch
 ---
 
-<meta name="description" content="Raphael Feser. Online and extended version of my CV. My training has provided me with foundations in the experimental techniques employed in medicinal chemistry. Additionally I have also been able to develop computational skills through my various experiences. I intend to use and develop these skills in exciting interdisciplinary projects contributing to a better understanding of the biochemistry of the human body, paving the way for the discovery of safer and more effective treatments. Raphael Paul Feser">
+<meta name="description" content="Raphael Feser. PhD candidate in biomolecular modelling at the University of Geneva. Molecular simulations and data-driven methods for protein conformational changes relevant to drug design.">
 
 <meta name="google-site-verification" content="KCgw2pt--nBaqC9akJgiNdvZABMkconuRXWspqaCp4Y" />
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Raphael Feser",
+  "jobTitle": "PhD candidate in biomolecular modelling",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "University of Geneva"
+  },
+  "url": "https://raphaelfeser.github.io/",
+  "sameAs": [
+    "https://www.linkedin.com/in/raphael-feser/"
+  ]
+}
+</script>
 
-## Experience
 
-<details>
+```{=html}
+<details class="cv-details">
+<summary class="cv-summary">Background</summary>
+<div class="cv-section">
 
-<summary><b>Education</b></summary>
+  <div class="cv-group">
+    <p class="cv-group-label">Education</p>
+    <ul class="cv-list">
+      <li><strong>PhD in Biomolecular Modelling</strong> &middot; University of Geneva <span class="cv-date">Ongoing</span></li>
+      <li><strong>Federal Diploma in Pharmacy (PharmD)</strong> &middot; Swiss FDHA <span class="cv-date">2023</span></li>
+      <li><strong>MSc in Pharmacy</strong> &middot; University of Geneva <span class="cv-date">2023</span></li>
+    </ul>
+  </div>
 
-<p>
+  <div class="cv-group">
+    <p class="cv-group-label">Professional</p>
+    <ul class="cv-list">
+      <li>
+        <strong>Pharmacist</strong> &middot; Amavita, Cornavin, Geneva <span class="cv-date">Jan-Oct 2025 &middot; Part-time</span>
+      </li>
+      <li><strong>Trainee Pharmacist</strong> &middot; Pharmacie de L'Ile</li>
+      <li><strong>Teaching &amp; Research Assistant</strong> &middot; University of Geneva</li>
+      <li><strong>Laboratory Assistant</strong> &middot; Firmenich SA</li>
+    </ul>
+  </div>
 
--   **Ph.D in Biomolecular Modelling**  <br> University of Geneva \| Ongoing
+  <div class="cv-group">
+    <p class="cv-group-label">Research</p>
+    <ul class="cv-list">
+      <li><strong>Master's Thesis in Computational Biophysics</strong> &middot; UCL &middot; Prof. Haider &amp; Prof. Gervasio</li>
+      <li><strong>Research Assistant in Statistics</strong> &middot; UNIGE &middot; Prof. Guerrier</li>
+      <li><strong>Research Internship in Biostatistics</strong> &middot; Melanoma Institute Australia &middot; Prof. Lo</li>
+      <li><strong>Open Synthesis Network</strong> &middot; DNDi &amp; UNIGE</li>
+    </ul>
+  </div>
 
--   **Federal Diploma in Pharmacy** (Pharm.D) <br> Swiss Federal Departement of Home Affairs (FDHA) \| Oct 2023
+  <div class="cv-group">
+    <p class="cv-group-label">Outreach</p>
+    <p class="cv-outreach">Non-profit involvement in pharmacy student advocacy and global health. <a href="./about.html#outreach-activities" target="_blank">See more →</a></p>
+  </div>
 
-    </p>
-
--   **M.Sc in Pharmacy**  <br> University of Geneva \| July 2023
-
--   **B.Sc in Pharmaceutical Sciences** <br> University of Geneva \| July 2021
-
--   **Swiss Matura (High School Diploma)** <br> Gymnase de Nyon \| July 2018 <br><br>
-
-    </details>
-
-<details>
-
-<summary><b>Professional training</b></summary>
-
-<p>
-
--   **Teaching & Research Assistant** - University of Geneva 
-
--   **Trainee Pharmacist** - Pharmacie de L'Ile
-
--   **Laboratory Assistant** - Firmenich SA <br><br>
-
+</div>
 </details>
+```
 
-<details>
+## CCR5 activation
 
-<summary><b>Research experience</b></summary>
+In my PhD, I study CCR5 activation (a GPCR) by combining structural data with molecular simulations. The interactive viewer highlights how small sequence changes in a ligand can translate into distinct receptor conformations.
 
-<p>
+```{=html}
+<a href="science.html"
+   style="
+     display:inline-block;
+     margin-top:0.5rem;
+     padding:0.45rem 0.85rem;
+     font-size:0.95rem;
+     font-weight:500;
+     color:#111;
+     background:#ffffff;
+     border:1px solid #f2b24c;
+     border-radius:8px;
+     text-decoration:none;
+     transition:background 0.2s ease, color 0.2s ease;"
+   onmouseover="this.style.background='#f2b24c';"
+   onmouseout="this.style.background='#ffffff';"> 
+  Interactive viewer
+</a>
+```
 
-<!-- -   **Doctoral student in Biomolecular and Pharmaceutical Modelling** <br> University College London <br> Prof. Shozeb Haider & Prof. Francesco L. Gervasio -->
+## SLNB and survival outcomes
 
--   **Master's Thesis in Computational Biophysics** <br> University College London <br> Prof. Shozeb Haider & Prof. Francesco L. Gervasio
+In research on clinical outcomes in melanoma patients, I study the role of sentinel lymph node biopsy (SLNB) using survival analysis applied to large clinical datasets.
 
--   **Research Assistant in Statistics** <br> University of Geneva <br> Prof. Stéphane Guerrier
+```{=html}
+<a href="survival.html"
+   style="
+     display:inline-block;
+     margin-top:0.5rem;
+     padding:0.45rem 0.85rem;
+     font-size:0.95rem;
+     font-weight:500;
+     color:#111;
+     background:#ffffff;
+     border:1px solid #f2b24c;
+     border-radius:8px;
+     text-decoration:none;
+     transition:background 0.2s ease, color 0.2s ease;"
+   onmouseover="this.style.background='#f2b24c';"
+   onmouseout="this.style.background='#ffffff';">
+  Interactive viewer
+</a>
+```
 
--   **Research Internship in Biostatistics**  <br> Melanoma Institute Australia <br> Prof. Serigne Lo
+```{=html}
+  <div class="tools-section">
+  <h3>Tools &amp; Methods</h3>
+  <div class="tools-grid">
+    <span class="tool-tag">AutoDock Vina</span>
+    <span class="tool-tag">GROMACS</span>
+    <span class="tool-tag">PLUMED</span>
+    <span class="tool-tag">NAMD</span>
+    <span class="tool-tag">ACEMD</span>
+    <span class="tool-tag">Schrödinger Suite</span>
+    <span class="tool-tag">RDKit</span>
+    <span class="tool-tag">MDAnalysis</span>
+    <span class="tool-tag">PyTorch</span>
+    <span class="tool-tag">R / Shiny</span>
+    <span class="tool-tag">Python</span>
+    <span class="tool-tag">HPC / SLURM</span>
+    <span class="tool-tag">Bash</span>
+    <span class="tool-tag">Quarto</span>
+    <span class="tool-tag">SQL</span>
+    <span class="tool-tag">Git</span>
+  </div>
+</div>
+```
 
--   **Open Synthesis Network** <br> DNDi & University of Geneva <br> Dr Sébastien Tardy & Prof. Leonardo Scapozza <br><br>
 
-</details>
-
-<details>
-
-<summary><b>Outreach activities</b></summary>
-
-<p>
-
-Outside my studies, I have been involved with several non-profit organisations engaged in pharmacy student's advocacy and global health, which has allowed me to gain valuable experiences and develop a wide range of soft skills. [\[see more\]](./about.html#outreach-activities){target="_blank" style="caret-color: white; font-size: 11pt;"}
-
-</details>
-
-## Main Project
-
-Currently, my focus is on G protein-coupled receptors (GPCRs), the largest family of receptors in the human body, which play a crucial role in numerous physiological functions, making them important targets for drug discovery. A detailed understanding of their activation mechanisms, from drug binding to effector signalling, will improve rational drug design. I aim to achieve this by using enhanced sampling molecular dynamics (MD) simulations in conjunction with other molecular modelling methods.
-
-
-{{< mol-rcsb 8dcr >}}
-*Structure of a typical Class A GPCR (β1-AR in green) bound to an agonist drug (dobutamine) and in complex with a G Protein (GαsGβ1Gγ2). See the [PDB Entry - 8DCR](https://doi.org/10.2210/pdb8dcr/pdb).*
