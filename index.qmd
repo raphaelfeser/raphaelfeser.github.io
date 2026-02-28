@@ -136,7 +136,7 @@ In research on clinical outcomes in melanoma patients, I study the role of senti
 
 ```{=html}
   <div class="tools-section">
-  <h3>Tools &amp; Methods</h3>
+  <h3>Tools</h3>
   <div class="tools-grid">
     <span class="tool-tag">AutoDock Vina</span>
     <span class="tool-tag">GROMACS</span>
