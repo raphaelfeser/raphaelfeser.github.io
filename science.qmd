@@ -178,21 +178,24 @@ format:
   <p class="enh-section-label">Methods</p>
   <h2>Sampling rare transitions</h2>
   <p>
-    The conformational changes described above happen too slowly to observe in a standard simulation. The methods below accelerate this process.
+    The conformational changes described above often occur on timescales that are inaccessible to standard molecular
+    dynamics simulations. At physiological temperature, a trajectory may remain trapped within a single conformational
+    basin, separated from other states by free-energy barriers. As a result, slow transitions such as GPCR activation
+    may not be observed within practical simulation times.
   </p>
   <p>
-    At physiological temperature, a molecular dynamics (MD) trajectory may remain confined to a single
-    conformational basin over accessible simulation timescales, missing slow transitions such as GPCR activation.
-    The underlying philosophy is shared with importance sampling in statistics: instead of drawing samples
-    directly from the distribution of interest, we sample from a modified distribution that is easier to
-    explore, and then recover the target distribution through reweighting or selection rules.
+    Enhanced sampling is illustrated here by an adaptive biasing method called metadynamics. This approach constructs
+    a history-dependent bias along a chosen collective variable (CV), a low-dimensional descriptor of the protein’s
+    configuration. By progressively filling previously visited regions of the free-energy landscape, the bias promotes
+    transitions between states that would otherwise be rarely observed.
   </p>
+
   <p>
-    In this example, adaptive biasing is illustrated with metadynamics, which builds a history-dependent bias along
-    a chosen collective variable (CV), a low-dimensional descriptor of the protein’s configuration. The bias
-    discourages revisiting the same region and encourages transitions. Because the bias is known, free-energy
-    profiles along the chosen CV can be estimated afterward (illustrative). The &Delta;G slider below sketches how a
-    ligand or mutation shifts that balance.
+    Because the applied bias is known, free-energy profiles along the selected CV can be reconstructed afterward
+    (illustrative). The underlying principle is closely related to importance sampling: instead of sampling directly
+    from the distribution of interest, we explore a modified distribution that is easier to sample and later recover
+    the unbiased distribution through reweighting. The &Delta;G slider below sketches how a ligand or mutation shifts
+    the balance between conformational states.
   </p>
 
   <div class="interactive-zone" style="margin:1.25rem 0 1rem;">
@@ -237,17 +240,10 @@ format:
   </div>
 
   <p>
-    Temperature replica exchange, also known as parallel tempering, follows a different strategy. Multiple copies
-    of the system are simulated simultaneously at a series of temperatures. Replicas at higher temperatures cross
-    energy barriers more easily and explore a broader range of conformations. At regular intervals, neighbouring
-    replicas attempt to exchange configurations according to a Metropolis criterion that depends on their potential
-    energies and temperatures.
+    Temperature replica exchange methods follow a different enhanced sampling strategy. Multiple copies of the system are simulated simultaneously at a series of temperatures. Replicas at higher temperatures sample higher-energy configurations more readily, allowing them to cross free-energy barriers and explore a broader range of conformations. At regular intervals, neighbouring replicas attempt to exchange configurations according to a Metropolis criterion that depends on their potential energies and temperatures.
   </p>
   <p>
-    In this way, configurations discovered at high temperature can gradually move down the temperature ladder.
-    Exchanges are accepted probabilistically, favouring configurations whose energies are compatible with lower
-    temperatures. As a result, the 300&thinsp;K replica samples configurations that would be difficult to reach
-    through direct simulation alone while remaining consistent with the target temperature.
+    In this way, configurations discovered at high temperature can gradually move down the temperature ladder. Exchanges are accepted probabilistically based on the energies of the exchanging replicas. This allows barriers to be crossed at higher temperatures, while the 300 K replica still samples the same physical behaviour and explores a broader range of configurations than direct simulation would allow.
   </p>
 
   <div class="interactive-zone" style="margin:1rem 0 0;">
