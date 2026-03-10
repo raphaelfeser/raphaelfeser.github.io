@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Raphael Feser -</title>
+<title>Raphael Feser - Melanoma outcomes and survival analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,9 +64,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Raphael Feser -">
+<meta property="og:title" content="Raphael Feser - Melanoma outcomes and survival analysis">
 <meta property="og:site-name" content="Raphael Feser">
-<meta name="twitter:title" content="Raphael Feser -">
+<meta name="twitter:title" content="Raphael Feser - Melanoma outcomes and survival analysis">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -98,11 +98,11 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
     <a class="dropdown-item" href="./science.html" rel="" target="">
- <span class="dropdown-text">CCR5 (viewer)</span></a>
+ <span class="dropdown-text">Receptor signalling</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./survival.html" rel="" target="">
- <span class="dropdown-text">SLNB (viewer)</span></a>
+ <span class="dropdown-text">Melanoma outcomes</span></a>
   </li>  
     </ul>
   </li>
@@ -125,10 +125,25 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Melanoma outcomes and survival analysis</h1>
+</div>
 
 
 
-<meta name="description" content="Interactive explainer on survival analysis methods for sentinel lymph node biopsy outcomes. Kaplan-Meier curves, censoring, and adjusted comparisons.">
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+
+<meta name="description" content="Interactive explainer for melanoma outcomes research, showing the survival analysis ideas used to study sentinel lymph node biopsy and related variables.">
 
 <style>
 /* ── survival.qmd - page-specific styles ──────────────────────────────────── */
@@ -379,12 +394,14 @@ canvas { display: block; width: 100%; }
 
   <!-- ── Header ──────────────────────────────────────────────────────────── -->
   <div class="survival-header">
-    <p class="surv-eyebrow">SLNB · Melanoma outcomes research</p>
-    <h1>SLNB: survival analysis for melanoma outcomes</h1>
+    <p class="surv-eyebrow">Previous and ongoing research · Melanoma outcomes</p>
+    <h1>Melanoma outcomes and survival analysis</h1>
     <p class="surv-subtitle">
-      Sentinel lymph node biopsy (SLNB) is an invasive surgical procedure used for staging in melanoma.
-      Because it carries risks and costs, we study its association with outcomes using large melanoma datasets. This page is an illustrative walkthrough of the
-      time-to-event methods used for such analyses. The data shown here are simulated for demonstration purposes. Results from real-world cohorts are to be reported separately in peer-reviewed publications.
+      This project asks whether sentinel lymph node biopsy (SLNB) is justified by measurable
+      improvement in outcomes, given that surgical procedures also carry risks. The page is an
+      illustrative walkthrough of the statistical ideas used to study that question in melanoma
+      cohorts. The data shown here are simulated for demonstration purposes, and results from the
+      underlying cohorts are to be reported separately in peer-reviewed publications.
     </p>
   </div>
 
@@ -406,7 +423,7 @@ canvas { display: block; width: 100%; }
       and can give biased estimates of event-free probability.
     </p>
     <p>
-      For readability, the panel below shows 40 illustrative patients; the real cohorts I work with include several thousand patients.
+      For readability, the panel below shows 40 illustrative patients; the underlying cohorts include several thousand patients.
     </p>
 
     <div class="interactive-zone">

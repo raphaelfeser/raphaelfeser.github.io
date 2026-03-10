@@ -9,7 +9,7 @@ project:
 website:
   title: "Raphael Feser"
   site-url: https://raphaelfeser.github.io/
-  description: "Raphael Feser. PhD candidate in biomolecular and pharmaceutical modelling."
+  description: "Raphael Feser. PharmD and PhD candidate in computational biophysics working on receptor signalling and melanoma outcomes."
   open-graph: true
   twitter-card: true
   navbar:
@@ -19,9 +19,9 @@ website:
       - text: Research
         menu:
           - href: science.qmd
-            text: CCR5 (viewer)
+            text: Receptor signalling
           - href: survival.qmd
-            text: SLNB (viewer)
+            text: Melanoma outcomes
       - href: about.qmd
         text: Activities
 

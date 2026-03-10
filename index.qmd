@@ -1,7 +1,7 @@
 ---
 title: Raphael Feser
-subtitle: "PharmD | PhD candidate, University of Geneva"
-description: "<p align='left'>Pharmacist and PhD candidate in biomolecular modelling at the University of Geneva. I use molecular simulations and data-driven methods to study protein conformational changes relevant to drug design.<br><br> Experience across Geneva (UNIGE), Sydney (USYD and MIA), and London (UCL).</p>"
+subtitle: "PharmD | PhD Candidate<br>Computational Biophysics<br>University of Geneva"
+description: "<p align='left'>I am currently a PhD candidate in <strong>pharmaceutical sciences</strong> at the University of Geneva. I study receptor function in drug-relevant systems through biomolecular modelling, and I also work on a melanoma clinical research manuscript arising from earlier applied biostatistics research.</p>"
 image: moi2.jpg
 format:
   html:
@@ -15,11 +15,14 @@ about:
       icon: linkedin
       href: https://www.linkedin.com/in/raphael-feser/
     - text: ""
+      icon: mortarboard-fill
+      href: https://scholar.google.com/citations?user=-VsBayEAAAAJ&hl=en&oi=ao
+    - text: ""
       icon: envelope
       href: mailto:raphael.feser@unige.ch
 ---
 
-<meta name="description" content="Raphael Feser. PhD candidate in biomolecular modelling at the University of Geneva. Molecular simulations and data-driven methods for protein conformational changes relevant to drug design.">
+<meta name="description" content="Raphael Feser. PharmD and PhD candidate in pharmaceutical sciences and computational biophysics at the University of Geneva, studying receptor function through biomolecular modelling and melanoma clinical research arising from earlier applied biostatistics work.">
 
 <meta name="google-site-verification" content="KCgw2pt--nBaqC9akJgiNdvZABMkconuRXWspqaCp4Y" />
 
@@ -28,22 +31,64 @@ about:
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Raphael Feser",
-  "jobTitle": "PhD candidate in biomolecular modelling",
+  "jobTitle": "PhD Candidate in Pharmaceutical Sciences",
   "affiliation": {
     "@type": "Organization",
     "name": "University of Geneva"
   },
   "url": "https://raphaelfeser.github.io/",
   "sameAs": [
-    "https://www.linkedin.com/in/raphael-feser/"
+    "https://www.linkedin.com/in/raphael-feser/",
+    "https://scholar.google.com/citations?user=-VsBayEAAAAJ&hl=en&oi=ao"
   ]
 }
 </script>
 
 
+### Research focus
+
+Many medically important receptors are dynamic rather than rigid. Small molecular changes can alter their function, drug response, and downstream biological effects in ways that are difficult to observe directly.
+
+My main focus is molecular modelling in drug-relevant receptor systems. I also work on a melanoma clinical research manuscript arising from earlier applied biostatistics research.
+
+### Current PhD research
+
+I study how small changes in signalling molecules can cause the same immune-cell receptor to trigger different cellular responses. Using CCR5 as a case study, I examine how these molecular differences reshape receptor behaviour and downstream effects, with implications for rational drug design.
+
+```{=html}
+<a class="btn-outline" href="science.html">Explore receptor project</a>
+```
+
+### Earlier research
+
+This project began during an earlier internship in biostatistics and is now being prepared as a manuscript. We study whether sentinel lymph node biopsy is justified by measurable improvement in outcomes, given that surgical procedures also carry risks. We address this using time-to-event analyses in large melanoma cohorts.
+
+```{=html}
+<a class="btn-outline" href="survival.html">Explore melanoma project</a>
+```
+
+### How I study these questions
+
+```{=html}
+<div class="method-pills">
+  <span class="method-pill">Molecular dynamics</span>
+  <span class="method-pill">Enhanced sampling</span>
+  <span class="method-pill">Free-energy calculations</span>
+  <span class="method-pill">Machine learning</span>
+  <span class="method-pill">Docking</span>
+  <span class="method-pill">Biomolecular modelling</span>
+  <span class="method-pill">Structural analysis</span>
+  <span class="method-pill">Protein language models</span>
+  <!-- <span class="method-pill">Cox models</span>
+  <span class="method-pill">Propensity score methods</span> -->
+  <span class="method-pill">Statistical simulation for method evaluation</span>
+  <span class="method-pill">Survival analysis</span>
+</div>
+```
+
 ```{=html}
 <details class="cv-details">
-<summary class="cv-summary">Background</summary>
+<summary class="cv-summary">Background and experience</summary>
 <div class="cv-section">
 
   <div class="cv-group">
@@ -85,77 +130,3 @@ about:
 </div>
 </details>
 ```
-
-## CCR5 activation
-
-In my PhD, I study CCR5 activation (a GPCR) by combining structural data with molecular simulations. The interactive viewer highlights how small sequence changes in a ligand can translate into distinct receptor conformations.
-
-```{=html}
-<a href="science.html"
-   style="
-     display:inline-block;
-     margin-top:0.5rem;
-     padding:0.45rem 0.85rem;
-     font-size:0.95rem;
-     font-weight:500;
-     color:#111;
-     background:#ffffff;
-     border:1px solid #f2b24c;
-     border-radius:8px;
-     text-decoration:none;
-     transition:background 0.2s ease, color 0.2s ease;"
-   onmouseover="this.style.background='#f2b24c';"
-   onmouseout="this.style.background='#ffffff';"> 
-  Interactive viewer
-</a>
-```
-
-## SLNB and survival outcomes
-
-In research on clinical outcomes in melanoma patients, I study the role of sentinel lymph node biopsy (SLNB) using survival analysis applied to large clinical datasets.
-
-```{=html}
-<a href="survival.html"
-   style="
-     display:inline-block;
-     margin-top:0.5rem;
-     padding:0.45rem 0.85rem;
-     font-size:0.95rem;
-     font-weight:500;
-     color:#111;
-     background:#ffffff;
-     border:1px solid #f2b24c;
-     border-radius:8px;
-     text-decoration:none;
-     transition:background 0.2s ease, color 0.2s ease;"
-   onmouseover="this.style.background='#f2b24c';"
-   onmouseout="this.style.background='#ffffff';">
-  Interactive viewer
-</a>
-```
-
-```{=html}
-  <div class="tools-section">
-  <h3>Tools</h3>
-  <div class="tools-grid">
-    <span class="tool-tag">AutoDock Vina</span>
-    <span class="tool-tag">GROMACS</span>
-    <span class="tool-tag">PLUMED</span>
-    <span class="tool-tag">NAMD</span>
-    <span class="tool-tag">ACEMD</span>
-    <span class="tool-tag">Schrödinger Suite</span>
-    <span class="tool-tag">RDKit</span>
-    <span class="tool-tag">MDAnalysis</span>
-    <span class="tool-tag">PyTorch</span>
-    <span class="tool-tag">R / Shiny</span>
-    <span class="tool-tag">Python</span>
-    <span class="tool-tag">HPC / SLURM</span>
-    <span class="tool-tag">Bash</span>
-    <span class="tool-tag">Quarto</span>
-    <span class="tool-tag">SQL</span>
-    <span class="tool-tag">Git</span>
-  </div>
-</div>
-```
-
-

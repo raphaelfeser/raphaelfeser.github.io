@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Receptor signalling and molecular mechanisms"
 format:
   html:
     toc: false
@@ -10,7 +10,7 @@ format:
 ---
 
 ```{=html}
-<meta name="description" content="Interactive walkthrough of CCR5 receptor activation. Molecular simulations and structural data for GPCR drug discovery research.">
+<meta name="description" content="Interactive walkthrough of current PhD research on receptor signalling, using CCR5 as a case study for molecular mechanisms relevant to therapeutics.">
 
 <div class="desktop-banner">
   &#9432;&nbsp; Best viewed on a desktop - this page contains interactive 3D viewer and animations.
@@ -19,9 +19,9 @@ format:
 <div class="science-page">
 
   <div class="science-page-header">
-    <h1>CCR5: structure and dynamics of activation</h1>
-    <p>Two ligands bind the same receptor. They differ by only a few amino acids, yet stabilise distinct activation states.</p>
-    <p class="research-context-note">Ongoing PhD research &middot; Public reference structures (PDB: 5UIW, 7O7F)</p>
+    <h1>Receptor signalling and molecular mechanisms</h1>
+    <p>In my current PhD work, I use CCR5 as a case study to examine how closely related molecules can bind the same immune-cell receptor yet trigger different cellular responses.</p>
+    <p class="research-context-note">Public reference structures (PDB: 5UIW, 7O7F)</p>
   </div>
 
   <!-- NGL Viewer -->
@@ -63,7 +63,7 @@ format:
         transmembrane receptor that guides immune cells by detecting chemical signals during immune responses.
         It belongs to the GPCR family, the most widely targeted class of drug receptors. Drugs often act by
         binding to receptors and changing their activity. Because CCR5 regulates immune-cell trafficking,
-        it is a promising target for modifying disease progression in inflammatory and cancer diseases.
+        it is relevant in inflammatory disease and cancer contexts.
       </p>
       <p>
         In the default camera view, the bottom corresponds to the intracellular side and the top to the
@@ -137,8 +137,8 @@ format:
         similar way. However, the
         receptor responds differently. When bound to the activating chemokine, one intracellular helix
         moves outward, allowing signalling proteins to bind inside the cell. With the blocking chemokine,
-        this movement does not occur. This suggests that activation depends not only on where a ligand
-        binds, but on how the receptor changes shape.
+        this movement does not occur. This suggests that activation depends on binding location, but also
+        on the shape changes the receptor undergoes afterward.
       </p>
       <p>Use the toggle above to compare the two structures.</p>
     </div>
@@ -158,7 +158,7 @@ format:
         Molecular dynamics simulations describe how atoms move over time using physics-based
         calculations. The animation shows CCR5 evolving along a simulated trajectory. The highlighted
         helix moves outward as the receptor approaches an active geometry. These simulations help us
-        understand not only where a ligand binds, but how it reshapes receptor dynamics and stabilises
+        understand how ligand binding reshapes receptor dynamics and shifts the balance between
         different functional states.
       </p>
     </div>
