@@ -56,7 +56,7 @@ My main focus is molecular modelling in drug-relevant receptor systems. I also w
 I study how small changes in signalling molecules can cause the same immune-cell receptor to trigger different cellular responses. Using CCR5 as a case study, I examine how these molecular differences reshape receptor behaviour and downstream effects, with implications for rational drug design.
 
 ```{=html}
-<a class="btn-outline" href="science.html">Explore receptor project</a>
+<a class="btn-outline" href="science.html">Interactive viewer</a>
 ```
 
 ### Earlier research
@@ -64,7 +64,7 @@ I study how small changes in signalling molecules can cause the same immune-cell
 This project began during an earlier internship in biostatistics and is now being prepared as a manuscript. We study whether sentinel lymph node biopsy is justified by measurable improvement in outcomes, given that surgical procedures also carry risks. We address this using time-to-event analyses in large melanoma cohorts.
 
 ```{=html}
-<a class="btn-outline" href="survival.html">Explore melanoma project</a>
+<a class="btn-outline" href="survival.html">Interactive viewer</a>
 ```
 
 ### How I study these questions
